@@ -62,7 +62,7 @@ const Navbar = () => {
       icon: <Users className="w-4 h-4" />,
       links: [
         { name: 'About Us', href: '/about-us' },
-        { name: 'Our Mission', href: '/about-us#mission' },
+        { name: 'Cost Calculator', href: '/cost-calculator' },
         { name: 'Contact', href: '/contact' },
       ]
     }
@@ -129,8 +129,8 @@ const Navbar = () => {
             ))}
             
             <div className="pl-6 ml-6 border-l border-white/10 hidden xl:block">
-               <Link href="/contact" className="btn-premium !px-6 !py-2 !text-xs !rounded-xl">
-                 GET STARTED
+               <Link href="/cost-calculator" className="btn-premium !px-6 !py-2 !text-xs !rounded-xl">
+                Calculate Setup Cost
                </Link>
             </div>
           </div>

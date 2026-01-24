@@ -88,8 +88,31 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
-       
+         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
+           <div className="space-y-2 text-center md:text-left">
+              <p className="text-gray-600 text-[10px] font-black tracking-[0.3em] uppercase">
+                © {new Date().getFullYear()} GOLDEN LEGACY CORPORATE SERVICES
+              </p>
+              <p className="text-gray-800 text-[9px] font-bold tracking-[0.2em] uppercase">
+                Excellence Personified. UAE Licensed Provider.
+              </p>
+           </div>
+           
+           <div className="flex gap-10">
+              <Link href="#" className="text-gray-600 hover:text-gold text-[10px] font-black tracking-widest uppercase transition-colors">Privacy Policy</Link>
+              <Link href="#" className="text-gray-600 hover:text-gold text-[10px] font-black tracking-widest uppercase transition-colors">Terms of Service</Link>
+           </div>
+
+           <button 
+             onClick={scrollToTop}
+             className="group flex items-center gap-4 text-gray-500 hover:text-gold transition-all duration-500"
+           >
+             <span className="text-[10px] font-black uppercase tracking-[0.4em]">Back to Top</span>
+             <div className="w-12 h-12 rounded-2xl border border-white/5 flex items-center justify-center group-hover:border-gold/50 group-hover:bg-gold/5 transition-all duration-500 rotate-45 group-hover:rotate-0">
+               <ArrowUpRight size={18} className="-rotate-45" />
+             </div>
+           </button>
+        </div>       
       </div>
     </footer>
   );
