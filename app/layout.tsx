@@ -6,7 +6,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Golden Fortune - Corporate Services Provider Dubai",
+  title: "Golden Legacy - Corporate Services Provider Dubai",
   description: "Premier business setup consultancy in Dubai, UAE. We specialize in Mainland, Free Zone, and Offshore company formation.",
 };
 

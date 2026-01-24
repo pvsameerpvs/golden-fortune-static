@@ -14,7 +14,7 @@ export default function AboutUs() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/office.png"
-            alt="Golden Fortune Office"
+            alt="Golden Legacy Office"
             fill
             className="object-cover opacity-40 scale-105"
             priority
@@ -57,7 +57,7 @@ export default function AboutUs() {
               
               <div className="space-y-6 text-gray-400 text-lg leading-relaxed font-light">
                 <p>
-                  Golden Fortune Corporate Services Provider is strategically located in Sheikh Zayed, directly opposite the iconic Museum of the Future. This prime location mirrors our forward-thinking approach to business setup.
+                  Golden Legacy Corporate Services Provider is strategically located in Sheikh Zayed, directly opposite the iconic Museum of the Future. This prime location mirrors our forward-thinking approach to business setup.
                 </p>
                 <p>
                   Our founders and core team bring an extensive background from the UAE's premier banking sector. For over twenty years, we have managed complex financial portfolios and corporate structures for high-net-worth individuals and international enterprises.
@@ -186,7 +186,7 @@ export default function AboutUs() {
       {/* CTA Section */}
       <section className="section-padding">
         <div className="max-w-4xl mx-auto text-center space-y-12">
-           <h2 className="text-4xl md:text-6xl font-black">Experience the <br /><span className="text-gradient-gold">Golden Fortune</span> Journey</h2>
+           <h2 className="text-4xl md:text-6xl font-black">Experience the <br /><span className="text-gradient-gold">Golden Legacy</span> Journey</h2>
            <p className="text-xl text-gray-400 font-light leading-relaxed">
              Join the ranks of successful international businesses that started their UAE journey with us.
            </p>

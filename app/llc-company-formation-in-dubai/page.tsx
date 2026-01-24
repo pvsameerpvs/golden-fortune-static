@@ -23,7 +23,7 @@ export default function LLCFormation() {
       sections={[
         {
           title: "LLC Incorporation Services",
-          content: "Golden Fortune’s consultants assist you with the Limited Liability Company Formation process range across:",
+          content: "Golden Legacy’s consultants assist you with the Limited Liability Company Formation process range across:",
           list: [
             "Getting approvals and clearances from departments",
             "Preparing Memorandum of Association (MOA)",

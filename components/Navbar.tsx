@@ -75,7 +75,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="group flex flex-col">
               <span className="text-xl md:text-2xl font-black tracking-tighter text-white group-hover:text-gold transition-colors">
-                GOLDEN <span className="text-gold">FORTUNE</span>
+                GOLDEN <span className="text-gold">LEGACY</span>
               </span>
               <span className="text-[10px] uppercase tracking-[0.4em] text-gray-500 font-bold -mt-1 group-hover:text-gray-300 transition-colors">
                 Corporate Services

@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="lg:col-span-5 space-y-10">
              <Link href="/" className="flex flex-col">
               <span className="text-3xl font-black tracking-tighter text-white">
-                GOLDEN <span className="text-gold">FORTUNE</span>
+                GOLDEN <span className="text-gold">LEGACY</span>
               </span>
               <span className="text-xs uppercase tracking-[0.5em] text-gray-500 font-bold -mt-1">
                 Corporate Services Provider
@@ -44,7 +44,7 @@ const Footer = () => {
               <li><Link href="/mainland-company-formation-in-dubai" className="hover:text-gold transition-colors flex items-center gap-2 group">Mainland Setup <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
               <li><Link href="/dubai-free-zone-company-overview" className="hover:text-gold transition-colors flex items-center gap-2 group">Free Zone Centers <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
               <li><Link href="/offshore-company-formation-in-dubai" className="hover:text-gold transition-colors flex items-center gap-2 group">Offshore Solutions <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
-              <li><Link href="/about-us" className="hover:text-gold transition-colors flex items-center gap-2 group">About Golden Fortune <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
+              <li><Link href="/about-us" className="hover:text-gold transition-colors flex items-center gap-2 group">About Golden Legacy <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
               <li><Link href="/ifza-dubai-business-set-up" className="hover:text-gold transition-colors flex items-center gap-2 group">IFZA Business <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
             </ul>
           </div>
@@ -81,7 +81,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-white font-bold mb-1">Email Inquiry</p>
-                  <a href="mailto:info@goldenfortune.ae" className="text-gray-500 hover:text-gold transition-colors italic">info@goldenfortune.ae</a>
+                  <a href="mailto:info@goldenlegacy.ae" className="text-gray-500 hover:text-gold transition-colors italic">info@goldenlegacy.ae</a>
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
         
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8 text-gray-600 text-[10px] sm:text-xs font-bold tracking-[0.2em] uppercase">
-          <p>© {new Date().getFullYear()} GOLDEN FORTUNE CORPORATE SERVICES. EXCELLENCE PERSONIFIED.</p>
+          <p>© {new Date().getFullYear()} GOLDEN LEGACY CORPORATE SERVICES. EXCELLENCE PERSONIFIED.</p>
           <div className="flex gap-8">
              <a href="#" className="hover:text-gold transition-colors">Privacy Policy</a>
              <a href="#" className="hover:text-gold transition-colors">Terms of Service</a>

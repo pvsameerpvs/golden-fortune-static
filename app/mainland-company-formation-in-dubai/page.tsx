@@ -31,7 +31,7 @@ export default function MainlandOverview() {
         },
         {
           title: "Business Setup in Dubai Mainland involves several steps",
-          content: "Golden Fortune Team helps you to setup a business in Mainland Dubai at an affordable price. The process typically involves:",
+          content: "Golden Legacy Team helps you to setup a business in Mainland Dubai at an affordable price. The process typically involves:",
           list: [
             "Identifying the Business Activity",
             "Selecting a Legal Structure (Sole proprietorship, LLC, etc.)",

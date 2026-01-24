@@ -47,7 +47,7 @@ export default function BranchOffice() {
         },
         {
           title: "Our Branch Office Setup Services",
-          content: "Golden Fortune provides holistic support including:",
+          content: "Golden Legacy provides holistic support including:",
           list: [
             "Preparing Application Documents",
             "Identifying reliable local service agents",

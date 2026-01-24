@@ -134,7 +134,7 @@ export default function Home() {
               
               <div className="space-y-6 text-gray-400 text-lg leading-relaxed font-light">
                 <p>
-                  Golden Fortune Corporate Services Provider, strategically located opposite the Museum of the Future, is more than just a consultancy. We are your dedicated growth partners in the UAE.
+                  Golden Legacy Corporate Services Provider, strategically located opposite the Museum of the Future, is more than just a consultancy. We are your dedicated growth partners in the UAE.
                 </p>
                 <p>
                   Our foundation is built on extensive experience in the elite banking sector. For over twenty years, our founders have navigated the complex financial landscapes of Dubai, serving high-net-worth individuals and corporate giants.
@@ -284,7 +284,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Golden Fortune with Hallmarks */}
+      {/* Why Golden Legacy with Hallmarks */}
       <section className="section-padding relative">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-3 gap-16">
@@ -329,7 +329,7 @@ export default function Home() {
              </p>
              <div className="flex flex-wrap justify-center gap-6">
                 <a href="tel:+971527069469" className="btn-premium">Call Now</a>
-                <a href="mailto:info@goldenfortune.ae" className="btn-outline-gold">Email Us</a>
+                <a href="mailto:info@goldenlegacy.ae" className="btn-outline-gold">Email Us</a>
              </div>
           </div>
         </div>
