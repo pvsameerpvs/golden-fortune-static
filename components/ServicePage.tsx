@@ -39,7 +39,7 @@ const ServicePage = ({
   return (
     <div className="bg-[#030303] text-white min-h-screen pb-32">
       {/* Dynamic Hero Section */}
-      <section className="relative h-[60vh] min-h-[500px] flex items-end pb-20 overflow-hidden">
+      <section className="relative h-[60vh] min-h-[500px] flex items-end pb-20 overflow-hidden pt-20">
         <div className="absolute inset-0 z-0">
           <Image
             src={heroImage}

@@ -8,45 +8,60 @@ import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[calc(100vh-80px)] flex items-center justify-center overflow-hidden py-20">
+    <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
+      {/* Background Image Layer */}
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero.png"
           alt="Dubai Skyline"
           fill
-          className="object-cover opacity-50 scale-105"
+          className="object-cover opacity-60 scale-100 md:scale-105 transition-transform duration-[10000ms] ease-linear"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/80 to-[#030303]"></div>
+        {/* Lighter, more sophisticated gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-tr from-black/80 via-black/40 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#030303]"></div>
+        
+        {/* Subtle light leak effect */}
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gold/10 blur-[120px] rounded-full opacity-30 -mr-48 -mt-48"></div>
+        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gold/5 blur-[120px] rounded-full opacity-20 -ml-48 -mb-48"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="space-y-6 md:space-y-10"
-        >
-          <div className="inline-block px-4 py-1.5 glass rounded-full text-gold text-xs md:text-sm font-black tracking-[0.2em] md:tracking-widest uppercase mb-4 animate-float">
-            Premium Corporate Services in UAE
-          </div>
-          <h1 className="text-4xl sm:text-6xl md:text-8xl font-black mb-6 leading-[1.1] text-white">
-            Architecting Your <br />
-            <span className="text-gradient-gold">Business Empire</span>
-          </h1>
-          <p className="text-lg md:text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed font-light">
-            Strategic business setup solutions tailored for visionary entrepreneurs and global corporations in the heart of the Emirates.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4 md:gap-8 pt-6">
-            <Link href="/mainland-company-formation-in-dubai" className="btn-premium shine group !px-6 md:!px-10 !py-4 md:!py-5 !text-sm md:!text-base">
-              Establish Now <ArrowRight size={20} className="inline ml-2 group-hover:translate-x-1 transition-transform" />
-            </Link>
-            <Link href="#contact" className="btn-outline-gold group !px-6 md:!px-10 !py-4 md:!py-5 !text-sm md:!text-base">
-              Book Consultation
-            </Link>
-          </div>
-        </motion.div>
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="space-y-6 md:space-y-10"
+          >
+            <div className="inline-flex items-center gap-2 px-6 py-2 glass rounded-full border border-gold/30">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gold opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-gold"></span>
+              </span>
+              <span className="text-gold text-[10px] md:text-xs font-black tracking-[0.3em] uppercase">
+                Premier Business Advisory
+              </span>
+            </div>
+
+            <h1 className="text-5xl sm:text-7xl md:text-9xl font-black mb-6 leading-[0.95] tracking-tighter text-white">
+              BUILDING <br />
+              <span className="text-gradient-gold">LEGACIES</span>
+            </h1>
+            
+            <p className="text-lg md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed font-light drop-shadow-lg">
+              Strategic business setup solutions tailored for <span className="text-white font-medium">visionary entrepreneurs</span> in the heart of the Emirates.
+            </p>
+            
+           
+          </motion.div>
+        </div>
       </div>
+
+      {/* Decorative Bottom Line */}
+      <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gold/30 to-transparent"></div>
+
 
       <motion.div 
         initial={{ opacity: 0 }}

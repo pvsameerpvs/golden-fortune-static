@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const AboutHero = () => {
   return (
-    <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
+    <section className="relative h-[60vh] flex items-center justify-center overflow-hidden pt-20">
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/office.png"

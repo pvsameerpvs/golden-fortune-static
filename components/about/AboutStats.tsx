@@ -12,14 +12,21 @@ const AboutStats = () => {
   ];
 
   return (
-    <section className="section-padding bg-[#050505] border-t border-white/5">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="section-padding bg-gold relative overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 relative z-10">
          <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 text-center">
             {stats.map((stat, idx) => (
-              <div key={idx} className="space-y-4">
-                <div className="text-gold flex justify-center">{stat.icon}</div>
-                <div className="text-5xl font-black text-white">{stat.val}</div>
-                <div className="text-gray-500 font-bold tracking-widest uppercase text-[10px]">{stat.label}</div>
+              <div key={idx} className="space-y-4 group">
+                <div className="text-black/80 flex justify-center transform group-hover:scale-110 transition-transform duration-500">
+                  {stat.icon}
+                </div>
+                <div className="text-5xl font-black text-black tracking-tighter">
+                  {stat.val}
+                </div>
+                <div className="text-black/60 font-black tracking-widest uppercase text-[10px]">
+                  {stat.label}
+                </div>
+                <div className="w-8 h-1 bg-black/10 mx-auto rounded-full group-hover:w-16 group-hover:bg-black transition-all duration-500"></div>
               </div>
             ))}
          </div>
