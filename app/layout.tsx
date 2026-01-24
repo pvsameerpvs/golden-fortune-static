@@ -8,6 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Legacy - Corporate Services Provider Dubai",
   description: "Premier business setup consultancy in Dubai, UAE. We specialize in Mainland, Free Zone, and Offshore company formation.",
+  icons: {
+    icon: "/fevic.png",
+    shortcut: "/fevic.png",
+    apple: "/fevic.png",
+  },
 };
 
 export default function RootLayout({

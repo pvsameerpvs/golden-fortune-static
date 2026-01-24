@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Mail, Phone, MapPin, Clock, ArrowUpRight, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -18,13 +19,23 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-24">
           <div className="lg:col-span-5 space-y-10">
-             <Link href="/" className="flex flex-col">
-              <span className="text-3xl font-black tracking-tighter text-white">
-                GOLDEN <span className="text-gold">LEGACY</span>
-              </span>
-              <span className="text-xs uppercase tracking-[0.5em] text-gray-500 font-bold -mt-1">
-                Corporate Services Provider
-              </span>
+             <Link href="/" className="group flex items-center gap-4">
+              <div className="relative w-14 h-14 overflow-hidden rounded-2xl border border-white/5 bg-white/5 transition-all group-hover:border-gold/30">
+                <Image 
+                  src="/fevic.png" 
+                  alt="Golden Legacy Logo" 
+                  fill 
+                  className="object-contain p-2"
+                />
+              </div>
+              <div className="flex flex-col">
+                <span className="text-3xl font-black tracking-tighter text-white group-hover:text-gold transition-colors">
+                  GOLDEN <span className="text-gold">LEGACY</span>
+                </span>
+                <span className="text-[10px] uppercase tracking-[0.4em] text-gray-500 font-bold group-hover:text-gray-300 transition-colors">
+                  Corporate Services Provider
+                </span>
+              </div>
             </Link>
             <p className="text-gray-400 text-lg font-light leading-relaxed max-w-md">
               The premier business gateway to the UAE. Leveraging two decades of elite banking expertise to architect your corporate future in Dubai and beyond.
