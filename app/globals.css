@@ -96,6 +96,10 @@
   @apply shadow-[0_0_20px_rgba(212,175,55,0.4)] scale-105;
 }
 
+.section-padding {
+  @apply py-20 md:py-32 lg:py-40;
+}
+
 .btn-outline-gold {
   border: 1px solid rgba(212, 175, 55, 0.4);
   @apply px-8 py-3 rounded-full font-bold text-gold transition-all duration-300 hover:bg-gold hover:text-black;

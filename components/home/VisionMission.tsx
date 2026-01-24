@@ -6,7 +6,7 @@ import { Target, Eye } from 'lucide-react';
 
 const VisionMission = () => {
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative section-padding overflow-hidden">
        <div className="absolute inset-0 bg-gold/[0.02] -skew-y-3 origin-left"></div>
        <div className="max-w-7xl mx-auto px-4 relative z-10">
          <div className="grid lg:grid-cols-2 gap-16">

@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   return (
-    <footer id="contact" className="bg-[#030303] pt-32 pb-12 relative overflow-hidden">
+    <footer id="contact" className="bg-[#030303] pt-20 md:pt-32 lg:pt-40 pb-12 relative overflow-hidden">
       {/* Decorative Light */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-gold/5 blur-[150px] rounded-full opacity-50"></div>
 
