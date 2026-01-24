@@ -5,6 +5,7 @@ export default function JAFZAOffshore() {
     <ServicePage
       title="JAFZA Offshore Company Setup"
       subtitle="Jebel Ali Free Zone Authority Offshore Formation"
+      heroImage="/images/offshore.png"
       description={[
         "JAFZA Offshore was started in 2003 under the Offshore Companies Regulations. It is strategically located near Jebel Ali Port and Al Maktoum International Airport, boasting brilliant logistics and world-class infrastructure.",
         "A JAFZA offshore company requires a minimum of one shareholder and two directors, plus a mandatory secretary. There is no fixed minimum share capital requirement."

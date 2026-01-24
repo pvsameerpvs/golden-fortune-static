@@ -5,6 +5,7 @@ export default function AjmanMediaCity() {
     <ServicePage
       title="Ajman Media City Free Zone"
       subtitle="Global Hub for Media & Creativity"
+      heroImage="/images/freezone.png"
       description={[
         "Launched in 2018, Ajman Media City Free Zone is a dependable and professional environment that fosters the growth of media businesses. It allows companies to choose from a vast portfolio of 8 flexible packages.",
         "It serves as a creative platform for professionals seeking a modern environment with minimal bureaucracy and maximum efficiency."

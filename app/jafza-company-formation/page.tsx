@@ -5,6 +5,7 @@ export default function JAFZASetup() {
     <ServicePage
       title="JAFZA Company Formation"
       subtitle="Business Setup in Jebel Ali Free Zone"
+      heroImage="/images/freezone.png"
       description={[
         "Jebel Ali Free Zone is one of the oldest trade zones in Dubai, operating since 1985. It is home to 8,000 companies, including many Global Fortune 500 enterprises, and contributes 24% of Dubai's GDP.",
         "JAFZA is a haven for a thriving smart business community, offering infinite growth opportunities to businesses that operate both locally and globally."

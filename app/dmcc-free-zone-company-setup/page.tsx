@@ -5,6 +5,7 @@ export default function DMCCSetup() {
     <ServicePage
       title="DMCC Free Zone Company Setup"
       subtitle="Dubai Multi Commodities Center"
+      heroImage="/images/freezone.png"
       description={[
         "Established in 2002, DMCC is strategically located on Sheikh Zayed Road. It has been awarded 'Global Free Zone of the Year' for five consecutive years by the Financial Times.",
         "DMCC is the most prestigious Free Zone in Dubai, offering world-class infrastructure and unrivaled growth potential for commodities and general trading businesses."

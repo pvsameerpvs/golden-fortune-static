@@ -5,6 +5,7 @@ export default function ProfessionalLicense() {
     <ServicePage
       title="Professional License Main Land – Civil Company"
       subtitle="Obtain a Professional License in Dubai"
+      heroImage="/images/mainland.png"
       description={[
         "Professional License is suited for professionals engaged in providing services. A salient feature of this business type is 100% ownership, making the professional the sole owner with a UAE national as a local service agent.",
         "It is important to consult with an expert like Golden Fortune to obtain a detailed breakdown of the professional license cost in Dubai."

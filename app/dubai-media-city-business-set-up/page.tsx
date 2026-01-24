@@ -5,6 +5,7 @@ export default function DubaiMediaCity() {
     <ServicePage
       title="Dubai Media City Business Set Up"
       subtitle="The Hub of Media and Content Production"
+      heroImage="/images/freezone.png"
       description={[
         "Dubai Media City (DMC) started in 2001 and is home to over 1,500 companies and 25,000 employees. It hosts several Fortune 500 companies and welcomes professionals from across the globe.",
         "DMC offers state-of-the-art infrastructure ideal for media companies producing top-notch content, having transformed the media business landscape in the region."

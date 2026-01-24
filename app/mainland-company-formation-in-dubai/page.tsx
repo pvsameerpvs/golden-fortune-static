@@ -5,6 +5,7 @@ export default function MainlandOverview() {
     <ServicePage
       title="Mainland Company Formation in Dubai"
       subtitle="Overview of Dubai Mainland Company Formation Services"
+      heroImage="/images/mainland.png"
       description={[
         "Mainland is the most common form of Company set up in the United Arab Emirates. This business setup in UAE implies an onshore company that undertakes business in Dubai or other regions of the Emirates and outside the UAE.",
         "Mainland business setup in Dubai gained tremendous preference owing to its high level of flexibility. The formation of a mainland company entitles you the right to trade with end-customers anywhere in UAE and across the world. (unlike Free Zone companies, An LLC enjoys the freedom to trade anywhere in the UAE or GCC. Further, minimum restriction on business activities, visas, and other benefits make this Company set up a highly lucrative business option.",

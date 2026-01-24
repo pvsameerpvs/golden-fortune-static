@@ -5,6 +5,7 @@ export default function AjmanSetup() {
     <ServicePage
       title="Ajman Free Zone Business Setup"
       subtitle="Strategic Business Hub in Northern Emirates"
+      heroImage="/images/freezone.png"
       description={[
         "Ajman Free Zone (AFZ) was established in 1988 and is headquartered in Ajman. It enjoys a strategic location on the Arabian Gulf, extending business avenues to eastern and western trade markets.",
         "AFZ is a pioneer in innovation with a fully digitized setup, providing growth opportunities to a diverse range of industries through cutting-edge technology and world-class infrastructure."

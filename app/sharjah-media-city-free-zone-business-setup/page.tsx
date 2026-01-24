@@ -5,6 +5,7 @@ export default function ShamsSetup() {
     <ServicePage
       title="Sharjah Media City Free Zone Business Setup"
       subtitle="Shams Media & Innovation Hub"
+      heroImage="/images/freezone.png"
       description={[
         "Sharjah Media City (Shams) was established in 2017 to accelerate the growth of creative and media businesses. It provides groundbreaking services and types of entities like FZC, FZE, and branch offices.",
         "Shams is located just 5 minutes from Sharjah International Airport and 15 minutes from Dubai International Airport, making it highly accessible."

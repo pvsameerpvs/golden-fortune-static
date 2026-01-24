@@ -5,6 +5,7 @@ export default function AjmanOffshore() {
     <ServicePage
       title="Ajman Offshore Company Setup"
       subtitle="Ajman Offshore Company Formation"
+      heroImage="/images/offshore.png"
       description={[
         "Ajman Offshore Company Formation started in 2014 under the jurisdiction of Ajman Free Zone. It offers zero tax structure and complete confidentiality of information, with details of shareholders not being disclosed publicly.",
         "An Ajman offshore company is not required to own a physical office in the UAE, making it a highly cost-effective and flexible setup for international investors."

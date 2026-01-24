@@ -5,6 +5,7 @@ export default function DubaiSouthSetup() {
     <ServicePage
       title="Dubai South Free Zone Business Setup"
       subtitle="Strategic Hub around Al Maktoum International Airport"
+      heroImage="/images/freezone.png"
       description={[
         "Dubai South is a strategic flagship urban project spanning 145 sq. km. It is designed around Al Maktoum International Airport to provide convenient logistics and shipment around the GCC and the world.",
         "The city will sustain millions of people and is expected to create 500,000 jobs. Companies registered here are designated as DWC-LLC, benefiting from the world's largest trade and aviation hub."

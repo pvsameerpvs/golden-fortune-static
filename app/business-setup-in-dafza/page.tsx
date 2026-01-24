@@ -5,6 +5,7 @@ export default function DAFZASetup() {
     <ServicePage
       title="Business Setup in DAFZA"
       subtitle="Dubai Airport Free Zone (DAFZA)"
+      heroImage="/images/freezone.png"
       description={[
         "DAFZA was established in 1996 next to Dubai International Airport, the world's busiest. It home to 1,800 companies and 15,000 professionals, offering unrivaled connectivity to Europe, India, and the Far East.",
         "With world-class infrastructure and a business-oriented regulatory environment, DAFZA provides options for offices, warehouses, cold storage, and a dedicated logistics center."

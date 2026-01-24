@@ -5,6 +5,7 @@ export default function IFZASetup() {
     <ServicePage
       title="IFZA Dubai Business Set Up"
       subtitle="International Free Zone Authority (IFZA)"
+      heroImage="/images/freezone.png"
       description={[
         "IFZA commenced operations in 2018 and has a strategic partnership with Dubai Silicon Oasis Authority (DSOA) to facilitate ease of doing business. Located in a dynamic hub, IFZA offers over 1,000 business activities.",
         "IFZA provides competitive packages and flexible solutions for all business setup requirements, offering 360-degree support from registration to office setup."

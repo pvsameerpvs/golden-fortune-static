@@ -5,6 +5,7 @@ export default function RAKOffshore() {
     <ServicePage
       title="RAK Offshore Company Formation"
       subtitle="RAK International Corporate Centre (RAKICC)"
+      heroImage="/images/offshore.png"
       description={[
         "Ras Al Khaimah (RAK) is an independent Emirate offering world-class organization registry. RAKICC operates in full consistency with the international company formation industry, facilitating tax planning and asset protection.",
         "It is a matter of international prestige to own a RAK company. You can leverage trading and professional services under a single license with high security and confidentiality."

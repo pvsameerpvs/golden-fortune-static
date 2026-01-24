@@ -5,6 +5,7 @@ export default function OffshoreOverview() {
     <ServicePage
       title="Offshore Company Formation in Dubai"
       subtitle="Overview of Offshore Company Setup"
+      heroImage="/images/offshore.png"
       description={[
         "Setting up an Offshore Company in Dubai entitles you to tax incentives, confidentiality, and minimal bureaucracy. Offshore companies often play the role of holding companies and enjoy zero or low-tax regimes.",
         "The UAE is ranked among the top 10 countries with the highest offshore wealth. This setup maximizes earnings with tax minimization and provides better access to global funding and expansion into international markets.",

@@ -5,6 +5,7 @@ export default function RAKEZSetup() {
     <ServicePage
       title="RAKEZ Company Formation"
       subtitle="Business Setup in Ras Al Khaimah Economic Zone"
+      heroImage="/images/freezone.png"
       description={[
         "RAKEZ was established in 2000 to develop customer-oriented business solutions. It provides 100% foreign ownership and is home to thousands of enterprises, including many Fortune 500 companies.",
         "RAKEZ is a business powerhouse connected to global markets in the Middle East, North Africa, Europe, and Asia, offering unlimited space for industrial expansion."

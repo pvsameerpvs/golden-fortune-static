@@ -5,6 +5,7 @@ export default function FujairahSetup() {
     <ServicePage
       title="Fujairah Free Zone Company Formation"
       subtitle="Strategic Access to the Indian Ocean"
+      heroImage="/images/freezone.png"
       description={[
         "Fujairah Free Zone offers a unique vantage point on the UAE's East Coast, providing direct access to the Indian Ocean. It is a dynamic commercial hub offering competitive packages and flexible business solutions.",
         "With 360-degree solutions for business setup, Fujairah Free Zone facilitates ease of doing business and flexibility for international investors."

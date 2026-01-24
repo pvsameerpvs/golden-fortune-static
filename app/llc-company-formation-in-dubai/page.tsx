@@ -5,6 +5,7 @@ export default function LLCFormation() {
     <ServicePage
       title="LLC Company Formation in Dubai, UAE"
       subtitle="Limited Liability Company Formation Services"
+      heroImage="/images/mainland.png"
       description={[
         "LLC (Limited Liability Company) is the most predominant type of business setup in the UAE Mainland. These companies are authorized to carry out business activities approved by the DED (Department of Economic Development).",
         "A Limited Liability Company is governed by the UAE Commercial Companies Law of 2015 (CCL). The minimum number of shareholders required to form an LLC is 2 while the maximum is 50.",

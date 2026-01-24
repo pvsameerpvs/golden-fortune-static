@@ -5,6 +5,7 @@ export default function DWTCSetup() {
     <ServicePage
       title="DWTC Free Zone Company Formation"
       subtitle="Dubai World Trade Center Free Zone"
+      heroImage="/images/freezone.png"
       description={[
         "The Dubai World Trade Center (DWTC) is a cosmopolitan center established in 1979 in the heart of Dubai, near DIFC and Burj Khalifa. It spans over 1.3 million sq. feet and is the ideal platform for global networking.",
         "DWTC provides unparalleled growth opportunities, allowing businesses to operate under an independent free zone license while being in the center of the city's business hub."

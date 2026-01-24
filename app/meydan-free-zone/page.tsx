@@ -5,6 +5,7 @@ export default function MeydanSetup() {
     <ServicePage
       title="Meydan Free Zone"
       subtitle="Thriving Commercial Free Zone in Dubai"
+      heroImage="/images/freezone.png"
       description={[
         "Meydan Free Zone is one of the most thriving commercial free zones in the UAE. It offers a premium business environment with a focus on entrepreneurship and innovation.",
         "Meydan Free Zone companies are typically established as Limited Liability Companies in a Free Zone (FZ-LLC) and can have a minimum of one shareholder."

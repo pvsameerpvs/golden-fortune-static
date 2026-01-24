@@ -5,6 +5,7 @@ export default function FreeZoneOverview() {
     <ServicePage
       title="UAE Free Zone Company Formation"
       subtitle="Overview of Free Trade Zones in the UAE"
+      heroImage="/images/freezone.png"
       description={[
         "Free Trade Zones are areas in the UAE that are entitled to certain tax, customs, and imports regime. Each Free Zone caters to a particular commercial category and offers 100% ownership to entrepreneurs.",
         "An FZE (Free Zone Establishment) or FZC (Free Zone Company) is a limited liability entity governed by the rules of the specific Free Zone. With more than 40 Free Zones, the UAE has become an ideal business hub for foreign investors.",

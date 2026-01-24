@@ -5,6 +5,7 @@ export default function BranchOffice() {
     <ServicePage
       title="Branch / Representative Office In Main Land"
       subtitle="Expand Your Operations into Dubai Main Land"
+      heroImage="/images/mainland.png"
       description={[
         "Opening a Branch Office in Dubai Main Land entitles your company to multiple rights and advantages. It unlocks an ocean of possibilities and allows you to extend operations into other markets.",
         "A Branch Office has the freedom to perform all activities similar to that of the Parent Company and enjoys 100% foreign ownership. It is ideal for highly regulated industries including Banking, Financial Services, and Insurance.",
