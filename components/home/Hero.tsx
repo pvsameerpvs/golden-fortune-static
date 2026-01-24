@@ -9,15 +9,17 @@ import { ArrowRight, ChevronRight } from 'lucide-react';
 const Hero = () => {
   return (
     <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
-      {/* Background Image Layer */}
+      {/* Background Video Layer */}
       <div className="absolute inset-0 z-0">
-        <Image
-          src="/images/hero.png"
-          alt="Dubai Skyline"
-          fill
-          className="object-cover opacity-60 scale-100 md:scale-105 transition-transform duration-[10000ms] ease-linear"
-          priority
-        />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover opacity-60 scale-100 md:scale-105"
+        >
+          <source src="/hero-vid.mp4" type="video/mp4" />
+        </video>
         {/* Lighter, more sophisticated gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-tr from-black/80 via-black/40 to-transparent"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#030303]"></div>
