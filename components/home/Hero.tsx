@@ -54,14 +54,7 @@ const Hero = () => {
               Strategic business setup solutions tailored for <span className="text-white font-medium">visionary entrepreneurs</span> in the heart of the Emirates.
             </p>
             
-            <div className="flex flex-col sm:flex-row justify-center gap-5 md:gap-8 pt-10">
-              <Link href="/mainland-company-formation-in-dubai" className="btn-premium shine group !px-12 !py-5 !text-base shadow-[0_20px_50px_rgba(212,175,55,0.2)]">
-                Establish Now <ArrowRight size={20} className="inline ml-2 group-hover:translate-x-1 transition-transform" />
-              </Link>
-              <Link href="/contact" className="btn-outline-gold group !px-12 !py-5 !text-base backdrop-blur-sm">
-                Book Consultation
-              </Link>
-            </div>
+           
           </motion.div>
         </div>
       </div>

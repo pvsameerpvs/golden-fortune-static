@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Send, User, Mail, Phone, MessageSquare } from 'lucide-react';
+import { Send, User, Mail, Phone, MessageSquare, Landmark, ChevronDown } from 'lucide-react';
 
 interface ServiceContactFormProps {
   defaultService?: string;
@@ -13,6 +13,25 @@ const ServiceContactForm = ({
   title = "Quick Enquiry" 
 }: ServiceContactFormProps) => {
   const [status, setStatus] = useState<'idle' | 'sending' | 'success'>('idle');
+  const [service, setService] = useState(defaultService);
+
+  React.useEffect(() => {
+    setService(defaultService);
+  }, [defaultService]);
+
+  const allServices = [
+    "Mainland Company Formation in Dubai",
+    "LLC Company Formation in Dubai",
+    "Professional License (Main Land / Civil Company)",
+    "IFZA Dubai Business Set-up",
+    "DMCC Free Zone Company Setup",
+    "Sharjah Media City (Shams) Free Zone Business Setup",
+    "Fujairah Free Zone Company Formation",
+    "Meydan Free Zone",
+    "RAKEZ Company Formation",
+    "Offshore Company Formation in Dubai",
+    "RAK Offshore Company Formation"
+  ];
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -84,6 +103,39 @@ const ServiceContactForm = ({
                 placeholder="Phone Number" 
                 className="w-full bg-gray-50 border border-gray-100 rounded-xl py-3 pl-12 pr-4 text-sm text-black focus:bg-white focus:border-gold/40 focus:ring-1 focus:ring-gold/20 outline-none transition-all font-medium"
               />
+            </div>
+          </div>
+
+          <div className="space-y-1">
+            <div className="relative">
+              <Landmark className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
+              <select 
+                value={service}
+                onChange={(e) => setService(e.target.value)}
+                className="w-full bg-gray-50 border border-gray-100 rounded-xl py-3 pl-12 pr-4 text-sm text-black focus:bg-white focus:border-gold/40 focus:ring-1 focus:ring-gold/20 outline-none transition-all font-medium appearance-none cursor-pointer"
+              >
+                {!allServices.includes(defaultService) && (
+                  <option value={defaultService}>{defaultService}</option>
+                )}
+                <optgroup label="Mainland">
+                  <option value="Mainland Company Formation in Dubai">Mainland Setup</option>
+                  <option value="LLC Company Formation in Dubai">LLC Formation</option>
+                  <option value="Professional License (Main Land / Civil Company)">Professional License</option>
+                </optgroup>
+                <optgroup label="Free Zone">
+                  <option value="IFZA Dubai Business Set-up">IFZA Dubai</option>
+                  <option value="DMCC Free Zone Company Setup">DMCC Dubai</option>
+                  <option value="Sharjah Media City (Shams) Free Zone Business Setup">Shams Sharjah</option>
+                  <option value="Fujairah Free Zone Company Formation">Fujairah Free Zone</option>
+                  <option value="Meydan Free Zone">Meydan Free Zone</option>
+                  <option value="RAKEZ Company Formation">RAKEZ RAK</option>
+                </optgroup>
+                <optgroup label="Offshore">
+                  <option value="Offshore Company Formation in Dubai">Offshore Setup</option>
+                  <option value="RAK Offshore Company Formation">RAK Offshore</option>
+                </optgroup>
+              </select>
+              <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" size={14} />
             </div>
           </div>
 

@@ -89,19 +89,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8 text-gray-600 text-[10px] sm:text-xs font-bold tracking-[0.2em] uppercase">
-          <p>© {new Date().getFullYear()} GOLDEN LEGACY CORPORATE SERVICES. EXCELLENCE PERSONIFIED.</p>
-          <div className="flex gap-8">
-             <a href="#" className="hover:text-gold transition-colors">Privacy Policy</a>
-             <a href="#" className="hover:text-gold transition-colors">Terms of Service</a>
-          </div>
-          <button 
-            onClick={scrollToTop}
-            className="group flex items-center gap-2 hover:text-gold transition-colors"
-          >
-            Back to Top <div className="w-8 h-8 rounded-full border border-white/10 flex items-center justify-center group-hover:border-gold/50 transition-all"><ArrowUpRight size={14} className="-rotate-45" /></div>
-          </button>
-        </div>
+       
       </div>
     </footer>
   );
