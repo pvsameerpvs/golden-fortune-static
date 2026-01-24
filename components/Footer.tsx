@@ -45,6 +45,7 @@ const Footer = () => {
               <li><Link href="/dubai-free-zone-company-overview" className="hover:text-gold transition-colors flex items-center gap-2 group">Free Zone Centers <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
               <li><Link href="/offshore-company-formation-in-dubai" className="hover:text-gold transition-colors flex items-center gap-2 group">Offshore Solutions <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
               <li><Link href="/about-us" className="hover:text-gold transition-colors flex items-center gap-2 group">About Golden Legacy <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
+              <li><Link href="/contact" className="hover:text-gold transition-colors flex items-center gap-2 group">Contact Us <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
               <li><Link href="/ifza-dubai-business-set-up" className="hover:text-gold transition-colors flex items-center gap-2 group">IFZA Business <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
             </ul>
           </div>
@@ -81,7 +82,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-white font-bold mb-1">Email Inquiry</p>
-                  <a href="mailto:info@goldenlegacy.ae" className="text-gray-500 hover:text-gold transition-colors italic">info@goldenlegacy.ae</a>
+                  <Link href="/contact" className="text-gray-500 hover:text-gold transition-colors italic">Send Secure Message</Link>
                 </div>
               </div>
             </div>

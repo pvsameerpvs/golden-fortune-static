@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
             <p className="text-gray-400 font-light leading-relaxed text-lg">
               We combine deep-rooted banking knowledge with cutting-edge legal expertise to provide a setup process that is as prestigious as it is practical.
             </p>
-            <Link href="#contact" className="btn-premium !rounded-xl flex items-center justify-center gap-3">
+            <Link href="/contact" className="btn-premium !rounded-xl flex items-center justify-center gap-3">
               Consult with Experts <ArrowRight size={20} />
             </Link>
           </div>

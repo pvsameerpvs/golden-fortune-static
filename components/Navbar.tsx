@@ -63,7 +63,7 @@ const Navbar = () => {
       links: [
         { name: 'About Us', href: '/about-us' },
         { name: 'Our Mission', href: '/about-us#mission' },
-        { name: 'Contact', href: '/#contact' },
+        { name: 'Contact', href: '/contact' },
       ]
     }
   ];
@@ -129,7 +129,7 @@ const Navbar = () => {
             ))}
             
             <div className="pl-6 ml-6 border-l border-white/10 hidden xl:block">
-               <Link href="/#contact" className="btn-premium !px-6 !py-2 !text-xs !rounded-xl">
+               <Link href="/contact" className="btn-premium !px-6 !py-2 !text-xs !rounded-xl">
                  GET STARTED
                </Link>
             </div>
@@ -190,7 +190,7 @@ const Navbar = () => {
 
               <div className="mt-auto pt-16">
                 <Link
-                  href="/#contact"
+                  href="/contact"
                   onClick={() => setIsOpen(false)}
                   className="btn-premium w-full text-center text-xl py-5"
                 >

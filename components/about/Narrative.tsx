@@ -36,7 +36,7 @@ const Narrative = () => {
             </div>
 
             <div className="flex gap-4">
-               <Link href="/#contact" className="btn-premium">Partner With Us</Link>
+               <Link href="/contact" className="btn-premium">Partner With Us</Link>
             </div>
           </motion.div>
 

@@ -13,7 +13,7 @@ const AboutCTA = () => {
            Join the ranks of successful international businesses that started their UAE journey with us.
          </p>
          <div className="flex justify-center">
-            <Link href="/#contact" className="btn-premium flex items-center gap-4">
+            <Link href="/contact" className="btn-premium flex items-center gap-4">
               Get a Free Consultation <ArrowRight />
             </Link>
          </div>

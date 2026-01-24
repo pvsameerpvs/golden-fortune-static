@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Link from 'next/link';
 
 const ContactBanner = () => {
   return (
@@ -25,9 +26,9 @@ const ContactBanner = () => {
                 <a href="tel:+971527069469" className="btn-premium !px-12 !py-5 text-lg shadow-[0_20px_40px_rgba(212,175,55,0.2)] !rounded-2xl">
                   Call Our Experts
                 </a>
-                <a href="mailto:info@goldenlegacy.ae" className="border-2 border-gold/50 px-12 py-5 rounded-2xl font-black text-gold text-lg hover:bg-gold hover:text-black transition-all duration-300 backdrop-blur-sm">
-                  Email Inquiry
-                </a>
+                <Link href="/contact" className="border-2 border-gold/50 px-12 py-5 rounded-2xl font-black text-gold text-lg hover:bg-gold hover:text-black transition-all duration-300 backdrop-blur-sm">
+                  Send Inquiry Form
+                </Link>
              </div>
              
              <p className="text-gray-400 text-xs font-black tracking-[0.3em] uppercase pt-8">
