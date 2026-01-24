@@ -8,7 +8,7 @@ import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[calc(100vh-80px)] flex items-center justify-center overflow-hidden py-20">
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero.png"
@@ -25,23 +25,23 @@ const Hero = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="space-y-8"
+          className="space-y-6 md:space-y-10"
         >
-          <span className="inline-block px-4 py-1.5 glass rounded-full text-gold text-sm font-bold tracking-widest uppercase mb-4 animate-float">
+          <div className="inline-block px-4 py-1.5 glass rounded-full text-gold text-xs md:text-sm font-black tracking-[0.2em] md:tracking-widest uppercase mb-4 animate-float">
             Premium Corporate Services in UAE
-          </span>
-          <h1 className="text-6xl md:text-8xl font-black mb-6 leading-[1.1]">
+          </div>
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-black mb-6 leading-[1.1] text-white">
             Architecting Your <br />
             <span className="text-gradient-gold">Business Empire</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed font-light">
+          <p className="text-lg md:text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed font-light">
             Strategic business setup solutions tailored for visionary entrepreneurs and global corporations in the heart of the Emirates.
           </p>
-          <div className="flex flex-wrap justify-center gap-6 pt-8">
-            <Link href="/mainland-company-formation-in-dubai" className="btn-premium shine group">
+          <div className="flex flex-wrap justify-center gap-4 md:gap-8 pt-6">
+            <Link href="/mainland-company-formation-in-dubai" className="btn-premium shine group !px-6 md:!px-10 !py-4 md:!py-5 !text-sm md:!text-base">
               Establish Now <ArrowRight size={20} className="inline ml-2 group-hover:translate-x-1 transition-transform" />
             </Link>
-            <Link href="#contact" className="btn-outline-gold group">
+            <Link href="#contact" className="btn-outline-gold group !px-6 md:!px-10 !py-4 md:!py-5 !text-sm md:!text-base">
               Book Consultation
             </Link>
           </div>

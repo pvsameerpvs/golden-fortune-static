@@ -48,12 +48,13 @@ const CoreServices = () => {
   ];
 
   return (
-    <section className="section-padding bg-[#050505]">
+    <section className="section-padding bg-white relative overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gold/10 to-transparent"></div>
       <div className="max-w-7xl mx-auto px-4">
-        <div className="text-center mb-20 space-y-4">
-          <h2 className="text-gold font-bold tracking-[0.3em] uppercase text-sm">Our Expertise</h2>
-          <h3 className="text-4xl md:text-6xl font-black">Choose Your Path to <span className="text-gradient-gold">Success</span></h3>
-          <p className="text-gray-500 max-w-2xl mx-auto">Explore our specialized business setup categories designed to meet diverse corporate requirements.</p>
+        <div className="text-center mb-24 space-y-6">
+          <h2 className="text-gold font-black tracking-[0.4em] uppercase text-xs">Our Expertise</h2>
+          <h3 className="text-4xl md:text-6xl font-black text-black leading-tight">Choose Your Path to <br /><span className="text-gold">UAE Success</span></h3>
+          <p className="text-gray-500 max-w-2xl mx-auto font-medium">Explore our specialized business setup categories designed to meet diverse corporate requirements in the heart of the Emirates.</p>
         </div>
 
         <motion.div 
@@ -61,29 +62,31 @@ const CoreServices = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="grid md:grid-cols-3 gap-8"
+          className="grid md:grid-cols-3 gap-10"
         >
           {services.map((service, idx) => (
-            <motion.div key={idx} variants={item} className="group glass-card overflow-hidden rounded-3xl">
-              <div className="h-64 relative overflow-hidden">
+            <motion.div key={idx} variants={item} className="group bg-gray-50 overflow-hidden rounded-[40px] border border-gray-100 hover:border-gold/30 hover:bg-white hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.1)] transition-all duration-700">
+              <div className="h-72 relative overflow-hidden">
                 <Image 
                   src={service.img} 
                   alt={service.title} 
                   fill 
-                  className="object-cover group-hover:scale-110 transition-transform duration-700 opacity-70 group-hover:opacity-100" 
+                  className="object-cover group-hover:scale-110 transition-transform duration-1000" 
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
-              </div>
-              <div className="p-10 space-y-6">
-                <div className="flex flex-col">
-                  {service.icon}
-                  <h4 className="text-2xl font-black text-white">{service.title}</h4>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                <div className="absolute bottom-8 left-8">
+                   <div className="w-12 h-12 bg-gold rounded-2xl flex items-center justify-center text-black mb-4">
+                     {service.icon}
+                   </div>
+                   <h4 className="text-3xl font-black text-white">{service.title}</h4>
                 </div>
-                <p className="text-gray-400 font-light leading-relaxed">
+              </div>
+              <div className="p-10 space-y-8">
+                <p className="text-gray-500 font-medium leading-relaxed">
                   {service.desc}
                 </p>
-                <Link href={service.link} className="flex items-center gap-2 text-gold font-bold hover:gap-4 transition-all">
-                  Learn More <ArrowRight size={18} />
+                <Link href={service.link} className="inline-flex items-center gap-3 text-gold font-black hover:gap-6 transition-all uppercase tracking-widest text-xs">
+                  Read Full Details <ArrowRight size={16} />
                 </Link>
               </div>
             </motion.div>
