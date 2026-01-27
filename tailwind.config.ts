@@ -48,6 +48,11 @@ const config: Config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        sans: ["var(--font-inter)", "sans-serif"],
+        serif: ["var(--font-roboto-slab)", "serif"],
+        condensed: ["var(--font-roboto-condensed)", "sans-serif"],
+      },
     }
   },
   plugins: []

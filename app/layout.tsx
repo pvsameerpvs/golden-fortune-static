@@ -3,9 +3,26 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SocialSidebar from "@/components/SocialSidebar";
 import MobileBottomNav from "@/components/MobileBottomNav";
-import { Inter } from "next/font/google";
+import { Inter, Roboto_Slab, Roboto_Condensed } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ 
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const robotoSlab = Roboto_Slab({ 
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-roboto-slab",
+});
+
+const robotoCondensed = Roboto_Condensed({ 
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  style: ["normal", "italic"],
+  variable: "--font-roboto-condensed",
+});
 
 export const metadata = {
   title: "Legacy - Corporate Services Provider Dubai",
@@ -24,7 +41,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${robotoSlab.variable} ${robotoCondensed.variable} font-sans antialiased bg-background text-foreground`}>
         <Navbar />
         <SocialSidebar />
         <MobileBottomNav />
