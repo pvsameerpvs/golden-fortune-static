@@ -71,13 +71,13 @@ const Navbar = () => {
   return (
     <nav className={`fixed w-full z-[100] transition-all duration-500 ${scrolled ? 'py-4' : 'py-6'}`}>
       <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-500`}>
-        <div className={`relative flex justify-between items-center px-6 rounded-full border transition-all duration-500 ${scrolled ? 'bg-black/60 backdrop-blur-2xl border-white/10 shadow-2xl h-16' : 'bg-transparent border-transparent h-20'}`}>
+        <div className={`relative flex justify-between items-center px-6 rounded-full border transition-all duration-500 ${scrolled ? 'bg-black/60 backdrop-blur-2xl border-white/10 shadow-2xl h-16' : 'bg-black/5 backdrop-blur-md border-white/10 h-20'}`}>
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="group flex flex-col">
               <span className="text-xl md:text-2xl font-black tracking-tighter text-white group-hover:text-gold transition-colors">
                 GOLDEN <span className="text-gold">LEGACY</span>
               </span>
-              <span className="text-[10px] uppercase tracking-[0.4em] text-gray-500 font-bold -mt-1 group-hover:text-gray-300 transition-colors">
+              <span className="text-[10px] uppercase tracking-[0.4em] text-gray-400/80 font-bold -mt-1 group-hover:text-gold/80 transition-colors">
                 Corporate Services
               </span>
             </Link>
@@ -92,7 +92,7 @@ const Navbar = () => {
                 onMouseEnter={() => setActiveDropdown(item.title)}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button className={`flex items-center gap-2 px-5 py-2 rounded-full text-sm font-bold transition-all hover:bg-white/5 ${activeDropdown === item.title ? 'text-gold' : 'text-gray-400 hover:text-white'}`}>
+                <button className={`flex items-center gap-2 px-5 py-2 rounded-full text-sm font-bold transition-all ${activeDropdown === item.title ? 'text-gold bg-white/10' : 'text-white/90 hover:text-gold hover:bg-white/5'}`}>
                   {item.icon}
                   {item.title} 
                   <ChevronDown className={`w-3 h-3 transition-transform duration-300 ${activeDropdown === item.title ? 'rotate-180' : ''}`} />

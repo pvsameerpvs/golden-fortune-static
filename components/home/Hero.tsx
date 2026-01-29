@@ -73,8 +73,8 @@ const Hero = () => {
         transition={{ delay: 1, duration: 1 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="text-gray-500 text-xs tracking-widest uppercase">Explore More</span>
-        <div className="w-[1px] h-12 bg-gradient-to-b from-gold to-transparent"></div>
+        <span className="text-white/60 text-xs tracking-widest uppercase font-medium">Explore More</span>
+        <div className="w-[1px] h-12 bg-gradient-to-b from-gold/60 to-transparent"></div>
       </motion.div>
     </section>
   );
