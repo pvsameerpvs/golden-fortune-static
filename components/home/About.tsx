@@ -49,7 +49,7 @@ const About = () => {
             
             <div className="space-y-6 text-gray-400 text-lg leading-relaxed font-light">
               <p>
-                Golden Legacy Corporate Services Provider, strategically located opposite the Museum of the Future, is more than just a consultancy. We are your dedicated growth partners in the UAE.
+                Golden Legacy Corporate Services Provider, strategically located at the heart of Dubai - Sheikh Zayed Road, is more than just a consultancy. We are your dedicated growth partners in the UAE.
               </p>
               <p>
                 Our foundation is built on extensive experience in the elite banking sector. For over twenty years, our team has navigated the complex financial landscapes of Dubai, serving high-net-worth individuals and corporate giants.

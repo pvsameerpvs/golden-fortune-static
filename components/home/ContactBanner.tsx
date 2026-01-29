@@ -32,7 +32,7 @@ const ContactBanner = () => {
              </div>
              
              <p className="text-gray-400 text-xs font-black tracking-[0.3em] uppercase pt-8">
-               Located opposite the Museum of the Future, Sheikh Zayed Road
+               Located at the heart of Dubai - Sheikh Zayed Road
              </p>
            </div>
         </div>

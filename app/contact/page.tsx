@@ -48,7 +48,7 @@ const ContactPage = () => {
                   </div>
                   <div className="space-y-1">
                     <p className="text-white font-black uppercase text-xs tracking-widest opacity-50">Headquarters</p>
-                    <p className="text-white text-lg font-medium">Sheikh Zayed Road, Opposite Future Museum,<br />Dubai, UAE</p>
+                    <p className="text-white text-lg font-medium">located at the heart of Dubai - Sheikh Zayed Road</p>
                   </div>
                 </div>
 

@@ -70,7 +70,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-white font-bold mb-1">Visit Our Office</p>
-                  <p className="text-gray-500 leading-relaxed font-light">Sheikh Zayed, Opposite Future Museum,<br />Dubai, United Arab Emirates</p>
+                  <p className="text-gray-500 leading-relaxed font-light">located at the heart of Dubai - Sheikh Zayed Road</p>
                 </div>
               </div>
 
