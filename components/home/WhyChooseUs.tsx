@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
         <div className="grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-1 space-y-8 lg:sticky lg:top-32 h-fit">
             <span className="text-gold font-black tracking-[0.4em] uppercase text-xs">The Golden Standard</span>
-            <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">Why Strategic <br />Founders <br /><span className="text-gold">Choose Us</span></h2>
+            <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">Why Visionary <br />Entrepreneurs <br /><span className="text-gold">Choose Us</span></h2>
             <p className="text-gray-400 font-light leading-relaxed text-lg">
               We combine deep-rooted banking knowledge with cutting-edge legal expertise to provide a setup process that is as prestigious as it is practical.
             </p>

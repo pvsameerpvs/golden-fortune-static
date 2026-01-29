@@ -8,6 +8,7 @@ import CoreServices from '@/components/home/CoreServices';
 import VisionMission from '@/components/home/VisionMission';
 import Stats from '@/components/home/Stats';
 import WhyChooseUs from '@/components/home/WhyChooseUs';
+import Team from '@/components/about/Team';
 import ContactBanner from '@/components/home/ContactBanner';
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <TrustBadges />
       <About />
+      <Team />
       <CoreServices />
       <VisionMission />
       <Stats />

@@ -52,7 +52,7 @@ const About = () => {
                 Golden Legacy Corporate Services Provider, strategically located opposite the Museum of the Future, is more than just a consultancy. We are your dedicated growth partners in the UAE.
               </p>
               <p>
-                Our foundation is built on extensive experience in the elite banking sector. For over twenty years, our founders have navigated the complex financial landscapes of Dubai, serving high-net-worth individuals and corporate giants.
+                Our foundation is built on extensive experience in the elite banking sector. For over twenty years, our team has navigated the complex financial landscapes of Dubai, serving high-net-worth individuals and corporate giants.
               </p>
               <p>
                 We don't just set up companies; we equip them with the tools for perpetual success—from seamless bank account openings to full regulatory compliance with the highest level of efficiency.
