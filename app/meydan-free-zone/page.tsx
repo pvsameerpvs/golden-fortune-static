@@ -7,27 +7,31 @@ export default function MeydanSetup() {
       subtitle="Thriving Commercial Free Zone in Dubai"
       heroImage="/images/freezone.png"
       description={[
-        "Meydan Free Zone is one of the most thriving commercial free zones in the UAE. It offers a premium business environment with a focus on entrepreneurship and innovation.",
-        "Meydan Free Zone companies are typically established as Limited Liability Companies in a Free Zone (FZ-LLC) and can have a minimum of one shareholder."
+        "Meydan Free Zone is a premier 360-degree business hub located in the heart of Dubai, specifically designed to foster entrepreneurship and innovation. Situated within the iconic Meydan Stadium complex, it offers a prestigious business address that combines luxury with high-efficiency corporate services.",
+        "Unlike many other zones, Meydan Free Zone allows for a unique 'dual-licensing' environment, and its flexible business activities—covering over 1,500 options—make it highly versatile for traders, consultants, and digital nomads.",
+        "The zone is known for its highly streamlined and transparent application process, allowing businesses to obtain their licenses and commence operations with minimal lead time."
       ]}
       advantages={[
-        "100% foreign ownership guaranteed",
-        "Exempt from all corporate taxes in the UAE",
-        "No filing, accounting, or reporting requirements",
+        "100% foreign ownership and zero tax environment",
+        "Prestigious Dubai business address within a world-class complex",
+        "Over 1,500 business activities allowed on a single license",
         "No minimum paid-up capital requirement",
-        "Strategic world time zone (GMT+4)",
-        "Simplified application process",
-        "Ability to have multiple shareholders",
-        "Person in charge/Manager required for each company"
+        "0% Corporate and Personal Income tax",
+        "No mandatory auditing requirements for many structures",
+        "Simplified digital application through an intuitive portal",
+        "Eligibility for UAE Residence Visas and family sponsorship",
+        "Strategic location just minutes away from Downtown Dubai",
+        "Multi-currency corporate bank account support"
       ]}
       sections={[
         {
-          title: "Setup Journey Explained",
-          content: "Your Meydan Free Zone business setup in three simple steps:",
+          title: "Setup Journey & Support",
+          content: "Our team manages the entire Meydan setup journey to ensure total compliance and speed:",
           list: [
-            "STEP 1: Submit Application with completed KYC",
-            "STEP 2: Security & Government Approvals",
-            "STEP 3: Business license issued by Meydan FZ"
+            "KYC & Activity Approval: Selecting from 1,500+ activities.",
+            "Security Clearance: Managed by Golden Legacy experts.",
+            "License Issuance: Digital delivery of trade license and documents.",
+            "Banking & Visa: End-to-end support for bank accounts and residency."
           ]
         }
       ]}

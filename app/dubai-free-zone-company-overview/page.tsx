@@ -7,35 +7,45 @@ export default function FreeZoneOverview() {
       subtitle="Overview of Free Trade Zones in the UAE"
       heroImage="/images/freezone.png"
       description={[
-        "Free Trade Zones are areas in the UAE that are entitled to certain tax, customs, and imports regime. Each Free Zone caters to a particular commercial category and offers 100% ownership to entrepreneurs.",
-        "An FZE (Free Zone Establishment) or FZC (Free Zone Company) is a limited liability entity governed by the rules of the specific Free Zone. With more than 40 Free Zones, the UAE has become an ideal business hub for foreign investors.",
-        "You are free to open offices in any of the UAE free zones across Dubai, Abu Dhabi, Sharjah, Fujairah, Ras Al Khaimah, and Umm Al Quwain."
+        "Free Trade Zones (FTZs) are specially designated economic areas in the UAE that provide a highly supportive and tax-efficient environment for international businesses. Each Free Zone is designed to cater to specific industrial sectors—ranging from technology and media to commodities and logistics—allowing businesses to operate within a specialized ecosystem.",
+        "Unlike Mainland companies, Free Zone entities offer 100% foreign ownership without the need for a local partner, coupled with full repatriation of capital and profits. This makes them the primary choice for visionary entrepreneurs and global corporations looking to establish a strategic base in the Middle East.",
+        "Golden Legacy provides end-to-end advisory services to help you select the ideal Free Zone that aligns with your specific business activities, budgetary requirements, and future growth plans across Dubai, Abu Dhabi, and the Northern Emirates."
       ]}
       advantages={[
-        "100% Foreign Ownership",
-        "Multi-currency Corporate bank accounts",
-        "100% Repatriation of Capital and Profits",
-        "100% Corporate and Personal Income Tax Exemption",
-        "Absence of currency restrictions",
-        "Wide range of licensable activities",
-        "Abundant and inexpensive energy",
-        "Modern communication and logistic infrastructure",
-        "Excellent support services for SMEs and start-ups",
-        "Robust labor and immigration procedures"
+        "100% Foreign Ownership from day one",
+        "100% Repatriation of Capital and Profits with no restrictions",
+        "0% Corporate and Personal Income Tax (subject to UAE regulations)",
+        "Exemption from all import and export duties",
+        "No currency restrictions or exchange controls",
+        "Fast-track licensing and registration procedures",
+        "Access to world-class logistics and industrial infrastructure",
+        "Eligibility for UAE Residence Visas for owners, employees, and families",
+        "Modern communication networks and smart city services",
+        "Simplified labor recruitment and immigration processes"
       ]}
       sections={[
         {
-          title: "Setup Requirements",
-          content: "You have the option to set up:",
+          title: "Legal Entities & Structures",
+          content: "The UAE Free Zone regulations provide flexible corporate structures to accommodate different business scales:",
           list: [
-            "Free Zone Establishment (FZE) – Single shareholder",
-            "Free Zone Company (FZC) – Two or more shareholders",
-            "Branch or Representative Office of an existing Parent Company"
+            "Free Zone Establishment (FZE) – A single-shareholder limited liability entity.",
+            "Free Zone Company (FZCO/FZC) – An entity with multiple shareholders (individuals or corporations).",
+            "Branch of a Foreign/Local Company – An extension of a parent company already existing outside the Free Zone.",
+            "Representative Office – A setup purely for marketing and coordination (non-trading)."
           ]
         },
         {
-          title: "Strategic Hubs",
-          content: "We provide services across all major Free Zones including IFZA, DMCC, SHAMS, DAFZA, JAFZA, and more."
+          title: "The Setup Journey",
+          content: "Our expert team streamlines the complex licensing process into a clear three-stage workflow:",
+          list: [
+            "Phase 1: Activity selection and initial approval from the Free Zone Authority.",
+            "Phase 2: Submission of required legal documents, office lease/desk selection, and MOA signing.",
+            "Phase 3: Issuance of Business License, establishment card, and commencement of visa processing."
+          ]
+        },
+        {
+          title: "Why Expert Advisory Matters",
+          content: "With over 45 diverse Free Zones in the UAE, choosing the wrong location can lead to higher long-term costs or banking difficulties. We provide deep-rooted banking expertise to ensure your chosen structure is 'bank-ready', facilitating smooth corporate account openings from the start."
         }
       ]}
     />

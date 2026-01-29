@@ -7,32 +7,33 @@ export default function DubaiMediaCity() {
       subtitle="The Hub of Media and Content Production"
       heroImage="/images/freezone.png"
       description={[
-        "Dubai Media City (DMC) started in 2001 and is home to over 1,500 companies and 25,000 employees. It hosts several Fortune 500 companies and welcomes professionals from across the globe.",
-        "DMC offers state-of-the-art infrastructure ideal for media companies producing top-notch content, having transformed the media business landscape in the region."
+        "Dubai Media City (DMC) was launched in 2001 to establish Dubai as the region's leading media hub. Today, it is a world-class ecosystem for media companies, content producers, and advertising agencies. It is home to over 1,500 companies, ranging from global giants like Reuter's and CNN to creative boutique startups.",
+        "DMC offers a unique cluster environment where professionals from broadcasting, publishing, and digital media can collaborate and grow. The zone provides state-of-the-art infrastructure designed specifically for high-bandwidth media operations.",
+        "Located in the heart of 'New Dubai', DMC provides much more than office space; it offers a lifestyle and professional network that is unrivaled in the Middle East."
       ]}
       advantages={[
-        "100% foreign ownership",
-        "0% corporate and other taxes",
-        "No local sponsor required",
-        "Multi-currency corporate bank accounts",
-        "Residence and work permits for professionals",
-        "Robust business setup process",
-        "Strategic location in the heart of Dubai"
+        "100% foreign ownership and full capital repatriation",
+        "0% Corporate and Personal Income tax",
+        "No local sponsorship or local partner required",
+        "Host to a community of 25,000+ media professionals",
+        "Specialized infrastructure for broadcasting and digital production",
+        "Multi-currency corporate bank account support",
+        "Simplified visa processing and residence permits",
+        "Access to networking events and industry-specific awards",
+        "Prestigious 'New Dubai' business location near Marina and JLT",
+        "Customizable office solutions from Flexi-Desks to dedicated buildings"
       ]}
       sections={[
         {
-          title: "Available Licenses",
-          content: "DMC issues licenses in various areas including:",
+          title: "Specialized License Categories",
+          content: "DMC provides targeted licenses for every segment of the media value chain:",
           list: [
-            "Broadcasting",
-            "Consulting",
-            "Electronic Media and Media Support",
-            "Film Distribution, Management, and Production",
-            "Information Agencies",
-            "Media and Marketing Services",
-            "Music & Entertainment",
-            "Publishing",
-            "Web Design and Management"
+            "Broadcasting & Content Production",
+            "Advertising, Marketing & PR",
+            "Publishing & Information Agencies",
+            "Media Support Services & Event Management",
+            "Music & Entertainment Production",
+            "Animation & Digital Design"
           ]
         }
       ]}
