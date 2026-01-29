@@ -29,7 +29,11 @@ const Hero = () => {
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gold/5 blur-[120px] rounded-full opacity-20 -ml-48 -mb-48"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 w-full h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col">
+        {/* Spacer for top/center balance */}
+        <div className="flex-1" />
+
+        {/* Main Content (Centered) */}
         <div className="flex flex-col items-center text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -55,31 +59,30 @@ const Hero = () => {
             <p className="text-lg md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed font-light drop-shadow-lg">
               Strategic business setup solutions tailored for <span className="text-white font-medium">visionary entrepreneurs</span> in the heart of the Emirates.
             </p>
+          </motion.div>
+        </div>
+
+        {/* Bottom Section (Centered via Flex) */}
+        <div className="flex-1 flex flex-col justify-end pb-12 items-center">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1, duration: 1 }}
+            className="flex flex-col items-center gap-6"
+          >
+            <div className="hidden xl:block">
+              <Link href="/cost-calculator" className="btn-premium !px-8 !py-3 !text-xs !rounded-full uppercase tracking-[0.2em] font-black">
+                Calculate Setup Cost
+              </Link>
+            </div>
             
-            
+            <div className="flex flex-col items-center gap-3">
+              <span className="text-white/40 text-[9px] tracking-[0.4em] uppercase font-bold">Scroll to Explore</span>
+              <div className="w-px h-12 bg-gradient-to-b from-gold/40 via-gold/5 to-transparent"></div>
+            </div>
           </motion.div>
         </div>
       </div>
-
-     
-
-      {/* Decorative Bottom Line */}
-
-
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
-      >
-        <div className="pl-6 ml-6 border-l border-white/10 hidden xl:block">
-               <Link href="/cost-calculator" className="btn-premium !px-6 !py-2 !text-xs !rounded-xl">
-                Calculate Setup Cost
-               </Link>
-            </div>
-      </motion.div>
-
-     
     </section>
   );
 };
