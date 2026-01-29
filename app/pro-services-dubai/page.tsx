@@ -1,44 +1,43 @@
 import ServicePage from '@/components/ServicePage';
 
-export default function ValueAddedServices() {
+export default function PROServices() {
   return (
     <ServicePage
-      title="Value Added Services"
-      subtitle="Comprehensive Corporate & Personal Support"
+      title="PRO Services Dubai"
+      subtitle="Expert Government Liaison & Administrative Support"
       heroImage="/images/freezone.png"
       description={[
-        "Beyond business setup, Golden Legacy provides a comprehensive suite of high-end corporate and legacy planning services. We act as your single point of contact for all administrative, legal, and regulatory requirements in the UAE.",
-        "From securing your family's future with legal Wills to managing complex PRO tasks and ensuring tax compliance (VAT & Corporate Tax), our team of experts provides a seamless, integrated approach to managing your corporate and personal lifecycle.",
-        "Our value-added services are designed to remove the administrative burden from your shoulders, allowing you to focus entirely on scaling your business and enjoying the UAE lifestyle."
+        "Navigating the administrative landscape of the UAE requires constant interaction with various government departments. Golden Legacy's PRO (Public Relations Officer) services provide a bridge between your business and the local authorities, ensuring all your licensing and visa requirements are met with precision and speed.",
+        "We handle the complexities of the Department of Economy and Tourism (DET), the Ministry of Labor (MOHRE), and the General Directorate of Residency and Foreigners Affairs (GDRFA). Our team ensures that your documentation is always compliant, preventing costly administrative fines and operational delays.",
+        "Our professional PRO experts act as your dedicated liaison, managing everything from license renewals and amendments to employee visa processing and establishment card applications, allowing you to focus on your core business growth."
       ]}
       advantages={[
-        "End-to-end management of all government and administrative tasks",
-        "Expert legacy planning for both Muslim and Non-Muslim residents",
-        "Strategic tax planning for the new UAE Corporate Tax regime",
-        "Aviation-speed Golden Visa processing for eligible investors",
-        "ISO certification advisory to boost corporate credibility",
-        "Accurate legal translation and document attestation",
-        "Professional bookkeeping and financial reporting",
-        "Direct liaison with all UAE government departments"
+        "Expert liaison with all UAE government departments (DET, MOHRE, GDRFA)",
+        "Timely renewal of trade licenses and establishment cards",
+        "Streamlined corporate and employee visa processing",
+        "Assistance with labor contract drafting and submission",
+        "Management of quota increases and occupational health cards",
+        "Support for company name changes and activity amendments",
+        "Professional handling of liquidation and de-registration procedures",
+        "On-site representation at various government service centers",
+        "Minimized risk of administrative penalties and legal delays",
+        "Dedicated account manager for all government-related tasks"
       ]}
       sections={[
         {
-          title: "Our Specialized Services",
-          content: "We provide a diverse range of support services to ensure your business remains compliant and your personal assets are protected:",
+          title: "Comprehensive Government Liaison",
+          content: "Our PRO team is specialized in managing the entire lifecycle of corporate and individual administrative requirements:",
           list: [
-            "UAE Wills: Specialized drafting and registration for Muslims and Non-Muslims.",
-            "Golden Visas: 10-year residency processing for investors and talented professionals.",
-            "PRO Services: Labor, Immigration, and Economic Department liaison.",
-            "VAT & Corporate Tax: Registration, filing, and strategic tax advice.",
-            "ISO Certification: Guidance through the audit and certification process.",
-            "Document Attestation: MOFA, Notary, and Embassy attestations.",
-            "Legal Translation: Multi-language sworn translations for official use.",
-            "Bookkeeping: Monthly financial monitoring and year-end reporting."
+            "Corporate Licensing: Initial setup, renewals, and amendments.",
+            "Visa Services: Entry permits, residency stamping, and cancellations.",
+            "Labor Department Services: Work permits, mission visas, and labor files.",
+            "Legal Drafting: MOA amendments and Board Resolutions.",
+             "Miscellaneous Services: Tenancy (Ejari) support and Civil Defense approvals."
           ]
         },
         {
-          title: "PRO & Government Liaison",
-          content: "Our dedicated PRO team handles everything from trade license renewals to labor contract drafting and immigration clearances, ensuring your business never faces fines or administrative delays."
+          title: "The Strategic Advantage",
+          content: "Businesses that utilize professional PRO services avoid the common pitfalls of missed renewal deadlines and incorrect document submissions. We provide a proactive reminder system to ensure your corporate standings are always in 'Good Standing' status."
         }
       ]}
     />
