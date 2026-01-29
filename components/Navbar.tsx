@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronDown, Landmark, Globe2, Building2, Users, Phone } from 'lucide-react';
+import { Menu, X, ChevronDown, Landmark, Globe2, Building2, Users, Phone, Home as HomeIcon } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -85,6 +85,13 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-1">
+            <Link 
+              href="/" 
+              className="flex items-center gap-2 px-5 py-2 rounded-full text-sm font-bold transition-all text-white/90 hover:text-gold hover:bg-white/5"
+            >
+              <HomeIcon className="w-4 h-4" />
+              Home
+            </Link>
             {menuItems.map((item) => (
               <div
                 key={item.title}
@@ -115,6 +122,7 @@ const Navbar = () => {
                           <Link
                             key={link.href}
                             href={link.href}
+                            onClick={() => setActiveDropdown(null)}
                             className="flex items-center justify-between px-4 py-3 text-sm rounded-xl text-gray-400 hover:bg-gold hover:text-black transition-all group/item"
                           >
                             <span className="font-medium">{link.name}</span>
@@ -175,6 +183,17 @@ const Navbar = () => {
               </button>
 
               <div className="flex-1 overflow-y-auto px-6 space-y-4">
+                <Link 
+                  href="/" 
+                  onClick={() => setIsOpen(false)}
+                  className="w-full flex items-center gap-4 p-5 rounded-2xl border bg-white/5 border-white/5 text-gray-300 hover:text-white transition-all"
+                >
+                  <div className="text-gold text-2xl">
+                    <HomeIcon className="w-5 h-5" />
+                  </div>
+                  <span className="font-black uppercase tracking-widest text-sm">Home</span>
+                </Link>
+
                 {menuItems.map((item, idx) => {
                   const isExpanded = activeDropdown === item.title;
                   return (
