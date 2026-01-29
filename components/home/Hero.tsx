@@ -64,7 +64,6 @@ const Hero = () => {
      
 
       {/* Decorative Bottom Line */}
-      <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gold/30 to-transparent"></div>
 
 
       <motion.div 
@@ -73,9 +72,14 @@ const Hero = () => {
         transition={{ delay: 1, duration: 1 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="text-white/60 text-xs tracking-widest uppercase font-medium">Explore More</span>
-        <div className="w-[1px] h-12 bg-gradient-to-b from-gold/60 to-transparent"></div>
+        <div className="pl-6 ml-6 border-l border-white/10 hidden xl:block">
+               <Link href="/cost-calculator" className="btn-premium !px-6 !py-2 !text-xs !rounded-xl">
+                Calculate Setup Cost
+               </Link>
+            </div>
       </motion.div>
+
+     
     </section>
   );
 };

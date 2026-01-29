@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronDown, Landmark, Globe2, Building2, Users, Phone, Home as HomeIcon } from 'lucide-react';
+import { Menu, X, ChevronDown, Landmark, Globe2, Building2, Users, Phone, Home as HomeIcon, PlusCircle } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -60,6 +60,28 @@ const Navbar = () => {
       ]
     },
     {
+      title: 'Banking',
+      icon: <Landmark className="w-4 h-4" />,
+      links: [
+        { name: 'Bank Account Services', href: '/bank-account-opening-dubai' },
+      ]
+    },
+    {
+      title: 'Value Added',
+      icon: <PlusCircle className="w-4 h-4" />,
+      links: [
+        { name: 'UAE Wills', href: '/uae-wills-service' },
+        { name: 'Golden Visas', href: '/golden-visa-uae' },
+        { name: 'PRO Services', href: '/pro-services-dubai' },
+        { name: 'VAT Consultancy', href: '/vat-consultancy-uae' },
+        { name: 'Corporate Tax', href: '/corporate-tax-uae' },
+        { name: 'ISO Certification', href: '/iso-certification-dubai' },
+        { name: 'Document Attestation', href: '/document-attestation-services' },
+        { name: 'Legal Translation', href: '/legal-translation-dubai' },
+        { name: 'Bookkeeping', href: '/bookkeeping-and-accounting-services' },
+      ]
+    },
+    {
       title: 'Company',
       icon: <Users className="w-4 h-4" />,
       links: [
@@ -72,7 +94,7 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed w-full z-[100] transition-all duration-500 ${scrolled ? 'py-4' : 'py-6'}`}>
-      <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-500`}>
+      <div className={`max-w-[1600px] mx-auto px-4 sm:px-6 transition-all duration-500`}>
         <div className={`relative flex justify-between items-center px-6 rounded-full border transition-all duration-500 ${scrolled ? 'bg-black/60 backdrop-blur-2xl border-white/10 shadow-2xl h-16' : 'bg-black/5 backdrop-blur-md border-white/10 h-20'}`}>
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="group flex flex-col">
@@ -138,11 +160,7 @@ const Navbar = () => {
               </div>
             ))}
             
-            <div className="pl-6 ml-6 border-l border-white/10 hidden xl:block">
-               <Link href="/cost-calculator" className="btn-premium !px-6 !py-2 !text-xs !rounded-xl">
-                Calculate Setup Cost
-               </Link>
-            </div>
+            
           </div>
 
           {/* Mobile menu button */}

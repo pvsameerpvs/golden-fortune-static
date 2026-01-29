@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Building2, Zap, Globe2, ArrowRight } from 'lucide-react';
+import { Building2, Zap, Globe2, ArrowRight, Landmark, PlusCircle } from 'lucide-react';
 
 const container = {
   hidden: { opacity: 0 },
@@ -44,6 +44,20 @@ const CoreServices = () => {
       img: "/images/offshore.png",
       link: "/offshore-company-formation-in-dubai",
       icon: <Globe2 className="text-gold mb-4" />
+    },
+    {
+      title: "Bank Account Services",
+      desc: "Expert assistance in navigating multi-currency corporate account setups with premier UAE banks.",
+      img: "/images/mainland.png",
+      link: "/bank-account-opening-dubai",
+      icon: <Landmark className="text-gold mb-4" />
+    },
+    {
+      title: "Value Added Services",
+      desc: "Comprehensive corporate support including Wills, Golden Visas, PRO, VAT, and ISO certification.",
+      img: "/images/freezone.png",
+      link: "/pro-services-dubai",
+      icon: <PlusCircle className="text-gold mb-4" />
     }
   ];
 
@@ -62,7 +76,7 @@ const CoreServices = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="grid md:grid-cols-3 gap-10"
+          className="grid md:grid-cols-2 lg:grid-cols-3 gap-10"
         >
           {services.map((service, idx) => (
             <motion.div key={idx} variants={item} className="group bg-gray-50 overflow-hidden rounded-[40px] border border-gray-100 hover:border-gold/30 hover:bg-white hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.1)] transition-all duration-700">
