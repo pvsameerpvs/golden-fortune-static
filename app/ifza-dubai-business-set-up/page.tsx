@@ -7,53 +7,62 @@ export default function IFZASetup() {
       subtitle="International Free Zone Authority (IFZA)"
       heroImage="/images/freezone.png"
       description={[
-        "IFZA commenced operations in 2018 and has a strategic partnership with Dubai Silicon Oasis Authority (DSOA) to facilitate ease of doing business. Located in a dynamic hub, IFZA offers over 1,000 business activities.",
-        "IFZA provides competitive packages and flexible solutions for all business setup requirements, offering 360-degree support from registration to office setup."
+        "The International Free Zone Authority (IFZA) has rapidly emerged as one of the most dynamic and fastest-growing business hubs in the UAE. Strategically headquartered in Dubai, IFZA offers a highly competitive and flexible platform for international investors, SMEs, and large corporations. Through its partnership with the Dubai Silicon Oasis Authority, IFZA provides a world-class regulatory environment that simplifies the path to entrepreneurship.",
+        "IFZA is renowned for its vast array of over 1,000 business activities, ranging from professional consultancy and commercial trading to specialized industrial sectors. This diversity allows entrepreneurs to bundle multiple activities under a single license, providing unmatched versatility in business operations.",
+        "At Golden Legacy, we specialize in navigating the IFZA ecosystem, ensuring that your company formation is not only fast but also structurally optimized for long-term growth and seamless corporate banking integration."
       ]}
       advantages={[
-        "100% foreign ownership",
-        "Multi-currency Corporate bank accounts",
-        "No physical presence in UAE required to incorporate",
-        "Absence of income and corporate tax",
-        "Cost-effective and fast incorporation",
-        "No physical office requirement options",
-        "No need to present evidence of share capital",
-        "Full repatriation of profits",
-        "Ability to incorporate holding companies",
-        "Zero foreign currency restrictions"
+        "100% Foreign Ownership and full management control",
+        "0% Corporate and Personal Income Tax (subject to UAE laws)",
+        "Most cost-effective and efficient company incorporation in Dubai",
+        "No requirement for physical presence during the setup process",
+        "Wide range of office solutions: from Flexi-desks to private executive offices",
+        "No requirement for paid-up share capital guarantee",
+        "Ability to combine Professional, Commercial, and Industrial activities on one license",
+        "Seamless residency visa processing for shareholders and employees",
+        "No mandatory annual audit filing for small and medium enterprises",
+        "Access to a global network of partners and business support services"
       ]}
       sections={[
         {
-          title: "Legal Structures in IFZA",
-          content: "Choose between:",
-          list: [
-            "Free Zone Company (FZCO) – Owned by individual shareholders",
-            "Branch of a Foreign Company",
-            "Branch of a UAE/Dubai Company"
+          title: "Why Choose IFZA?",
+          content: [
+            "IFZA has rapidly emerged as one of the most dynamic and fastest-growing business hubs in the UAE, offering a highly competitive and flexible platform for international investors and SMEs.",
+            "Choosing IFZA means benefiting from a world-class regulatory environment through its partnership with Dubai Silicon Oasis, simplifying the path to global entrepreneurship."
           ]
         },
         {
-          title: "Registration Process",
-          content: "Four simple steps to setup:",
+          title: "Strategic Location",
+          content: "Strategically headquartered in Dubai, IFZA provides excellent connectivity to the city's major commercial centers and logistics hubs, making it an ideal base for companies with a global reach.",
           list: [
-            "Choosing a unique company name",
-            "Selecting legal structure and shareholding",
-            "Submitting application (Passport copy, White background photo)",
-            "Obtaining digital signatures and approvals",
-            "Paying registration fees"
+            "Access to world-class ICT infrastructure",
+            "Proximity to major Dubai business districts",
+            "High-bandwidth connectivity for digital businesses",
+            "Vibrant executive community and talent pool"
           ]
         },
         {
-          title: "Business Activities",
-          content: "IFZA sectors include:",
+          title: "Strategic Business Structures",
+          content: "IFZA provides robust legal frameworks to suit various investment scales and operational requirements:",
           list: [
-            "Trading (Import/Export, Distribution)",
-            "Manufacturing (Food processing, Packaging)",
-            "Services (Consulting, IT, Legal, Accounting)",
-            "Logistics (Warehousing, Freight forwarding)",
-            "Media and Entertainment",
-            "Education and Training"
+            "Free Zone Company (FZCO): Ideal for individual and corporate shareholders.",
+            "Branch of a Foreign Company: For existing international firms establishing a presence.",
+            "Branch of a UAE Company: For expansion within the IFZA ecosystem."
           ]
+        },
+        {
+          title: "Streamlined Setup Journey",
+          content: "We transform the complex registration process into a simple, time-bound workflow:",
+          list: [
+            "Consultation & Activity Selection: Identifying the best license mix for your goals.",
+            "Digital Document Submission: Remote submission of passports and KYC forms.",
+            "License Issuance: Electronic delivery of your corporate documents and establishment card.",
+            "Visa & Banking: Accelerated processing for Emirates ID and corporate account opening."
+          ]
+        },
+        {
+          title: "The IFZA Ecosystem",
+          content: "Beyond just a license, IFZA offers a vibrant community. Located near major logistics hubs, it provides companies with high-bandwidth connectivity and access to a massive talent pool. Whether you are in E-commerce, Marketing, or Logistics, IFZA provides the tools required for a global reach from a Dubai base."
         }
       ]}
     />

@@ -25,6 +25,23 @@ export default function AjmanSetup() {
       ]}
       sections={[
         {
+          title: "Why Choose Ajman Free Zone?",
+          content: [
+            "Ajman Free Zone (AFZ) is renowned for providing some of the most cost-effective and flexible business setup solutions in the northern UAE, making it a favorite for SMEs and startups.",
+            "Choosing AFZ means benefiting from a fully digitized registration process and installment-based payment plans, reducing the initial financial hurdles of launching your enterprise."
+          ]
+        },
+        {
+          title: "Strategic Location",
+          content: "Positioned at the entrance of the Arabian Gulf, AFZ offers a strategic logistics base with immediate access to major ports and international airports across Sharjah and Dubai.",
+          list: [
+            "Adjacent to the Ajman Port",
+            "Easy access to Sharjah and Dubai International Airports",
+            "Centrally located in the Northern Emirates",
+            "Connectivity to major UAE shipping and land transport routes"
+          ]
+        },
+        {
           title: "Target Sectors",
           content: "Ajman Free Zone caters to a wide spectrum of industries including:",
           list: [

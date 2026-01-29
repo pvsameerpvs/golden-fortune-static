@@ -7,9 +7,8 @@ export default function DAFZASetup() {
       subtitle="Dubai Airport Free Zone (DAFZA)"
       heroImage="/images/freezone.png"
       description={[
-        "Established in 1996, Dubai Airport Freezone (DAFZA) is one of the most prestigious and advanced free zones in the UAE. Strategically located next to Dubai International Airport—the world's busiest hub for international travel—DAFZA provides unrivaled connectivity to markets across Europe, the Indian Subcontinent, and the Far East.",
-        "Home to over 1,800 international companies and 15,000 professionals, DAFZA offers a business-oriented regulatory environment with world-class infrastructure. It is designed to facilitate the rapid movement of goods and services, making it the ideal choice for companies in the aviation, electronics, and luxury logistics sectors.",
-        "With a focus on innovation, DAFZA provides a range of workspace solutions including premium offices, smart warehouses, and specialized cold storage facilities, all backed by a dedicated logistics center and streamlined administrative services."
+        "Dubai Airport Free Zone (DAFZA) is one of the most prestigious and well-established free zones in the UAE, strategically located next to Dubai International Airport. It is a preferred destination for global businesses looking for seamless connectivity, tax efficiency, and a premium corporate environment.",
+        "Home to over 1,800 international companies and 15,000 professionals, DAFZA offers a business-oriented regulatory environment with world-class infrastructure. It is designed to facilitate the rapid movement of goods and services, making it the ideal choice for companies in the aviation, electronics, and luxury logistics sectors."
       ]}
       advantages={[
         "100% foreign company ownership and control",
@@ -25,7 +24,24 @@ export default function DAFZASetup() {
       ]}
       sections={[
         {
-          title: "Infrastructure & Logistics",
+          title: "Why Choose DAFZA?",
+          content: [
+            "DAFZA has consistently been ranked as one of the top free zones globally, offering an ecosystem that prioritizes innovation, efficiency, and growth.",
+            "Choosing DAFZA means positioning your business at the gateway of the world's busiest international travel hub, providing unparalleled access to markets across the EMEA and Asia-Pacific regions."
+          ]
+        },
+        {
+          title: "Strategic Location",
+          content: "Situated adjacent to Dubai International Airport, DAFZA offers unmatched logistics and global connectivity, making it ideal for companies involved in trade, logistics, aviation, and international operations.",
+          list: [
+            "Immediate access to DXB Cargo Terminal",
+            "24/7 customs clearance operations",
+            "Proximity to major city business hubs",
+            "Seamless multimodal transport links"
+          ]
+        },
+        {
+          title: "Premium Infrastructure",
           content: "DAFZA offers specialized high-tech facilities including Light Industrial Units (LIUs) for assembly and packaging, and cold storage for pharmaceutical and perishable goods.",
           list: [
             "Smart Offices: Fully furnished and serviced workspaces.",

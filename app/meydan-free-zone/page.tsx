@@ -25,13 +25,30 @@ export default function MeydanSetup() {
       ]}
       sections={[
         {
-          title: "Setup Journey & Support",
-          content: "Our team manages the entire Meydan setup journey to ensure total compliance and speed:",
+          title: "Why Choose MEYDAN?",
+          content: [
+            "Meydan Free Zone is a multi-purpose economic hub offering a high-prestige environment that encourages the growth of startups and international firms alike.",
+            "Choosing MEYDAN means being part of a vibrant commercial community that integrates business activities with world-class lifestyle and leisure facilities."
+          ]
+        },
+        {
+          title: "Strategic Location",
+          content: "Located in the heart of Meydan, Dubai, the zone offers a prestigious address with rapid access to the city's key financial and logistics centers.",
           list: [
-            "KYC & Activity Approval: Selecting from 1,500+ activities.",
-            "Security Clearance: Managed by Golden Legacy experts.",
-            "License Issuance: Digital delivery of trade license and documents.",
-            "Banking & Visa: End-to-end support for bank accounts and residency."
+            "Close proximity to Downtown Dubai",
+            "Adjacent to the iconic Meydan Racecourse",
+            "Easy access to major UAE transport arteries",
+            "Premium lifestyle and retail destination hub"
+          ]
+        },
+        {
+          title: "Setup Your Vision",
+          content: "Meydan Free Zone provides a highly efficient and digital-first environment for business registration:",
+          list: [
+            "100% digital license issuance process",
+            "Over 1,500 diverse business activities",
+            "Scalable office and desk solutions",
+            "Seamless corporate banking assistance"
           ]
         }
       ]}

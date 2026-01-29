@@ -25,6 +25,23 @@ export default function JAFZASetup() {
       ]}
       sections={[
         {
+          title: "Why Choose JAFZA?",
+          content: [
+            "JAFZA is the UAE's flagship trade hub and one of the largest industrial zones globally, accounting for nearly 24% of Dubai's total GDP.",
+            "Choosing JAFZA means positioning your business within a unique multimodal logistics ecosystem that serves over 3.5 billion people across the world."
+          ]
+        },
+        {
+          title: "Strategic Location",
+          content: "Directly integrated with Jebel Ali Port, the region's largest deep-water port, JAFZA offers unrivaled sea, air, and land connectivity.",
+          list: [
+            "Seamless connection to Jebel Ali Port",
+            "Proximity to Al Maktoum International Airport",
+            "Direct access to major trans-emirate highways",
+            "Unrivaled sea-to-air logistics corridor"
+          ]
+        },
+        {
           title: "Setup Options in JAFZA",
           content: "JAFZA accommodates various legal structures to suit your business needs:",
           list: [
