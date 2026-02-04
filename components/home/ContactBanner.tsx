@@ -23,7 +23,7 @@ const ContactBanner = () => {
              </div>
              
              <div className="flex flex-wrap justify-center gap-8 pt-6">
-                <a href="tel:+971527069469" className="btn-premium !px-12 !py-5 text-lg shadow-[0_20px_40px_rgba(212,175,55,0.2)] !rounded-2xl">
+                <a href="tel:+971526065777" className="btn-premium !px-12 !py-5 text-lg shadow-[0_20px_40px_rgba(212,175,55,0.2)] !rounded-2xl">
                   Call Our Experts
                 </a>
                 <Link href="/contact" className="border-2 border-gold/50 px-12 py-5 rounded-2xl font-black text-gold text-lg hover:bg-gold hover:text-black transition-all duration-300 backdrop-blur-sm">

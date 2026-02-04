@@ -8,7 +8,7 @@ const SocialSidebar = () => {
   const socials = [
     {
       name: 'WhatsApp',
-      href: 'https://wa.me/971527069469',
+      href: 'https://wa.me/971526065777',
       color: '#25D366',
       icon: (
         <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
@@ -18,7 +18,7 @@ const SocialSidebar = () => {
     },
     {
       name: 'Call Us',
-      href: 'tel:+971527069469',
+      href: 'tel:+971526065777',
       color: '#000',
       icon: <Phone size={20} fill="currentColor" />
     },
