@@ -24,7 +24,7 @@ const SocialSidebar = () => {
     },
     {
       name: 'Instagram',
-      href: 'https://instagram.com/goldenlegacy_ae',
+      href: 'https://www.instagram.com/goldenlegacy.ae/',
       color: '#E4405F',
       icon: (
         <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
@@ -34,7 +34,7 @@ const SocialSidebar = () => {
     },
     {
       name: 'LinkedIn',
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/golden-legacy-corporate-services-legacy-8263a73aa/',
       color: '#0077B5',
       icon: (
         <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
@@ -44,7 +44,7 @@ const SocialSidebar = () => {
     },
     {
       name: 'Facebook',
-      href: 'https://facebook.com',
+      href: 'https://www.facebook.com/profile.php?id=61587542722949',
       color: '#1877F2',
       icon: (
         <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">

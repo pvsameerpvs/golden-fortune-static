@@ -28,9 +28,9 @@ export const metadata = {
   title: "Legacy - Corporate Services Provider Dubai",
   description: "Premier business setup consultancy in Dubai, UAE. We specialize in Mainland, Free Zone, and Offshore company formation.",
   icons: {
-    icon: "/fevic.png",
-    shortcut: "/fevic.png",
-    apple: "/fevic.png",
+    icon: "/golden-logo.png",
+    shortcut: "/golden-logo.png",
+    apple: "/golden-logo.png",
   },
 };
 

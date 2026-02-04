@@ -20,12 +20,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-24">
           <div className="lg:col-span-5 space-y-10">
              <Link href="/" className="group flex items-center gap-4">
-              <div className="relative w-14 h-14 overflow-hidden rounded-2xl border border-white/5 bg-white/5 transition-all group-hover:border-gold/30">
+              <div className="relative w-20 h-20 overflow-hidden rounded-2xl transition-all group-hover:scale-105">
                 <Image 
-                  src="/fevic.png" 
+                  src="/golden-logo.png" 
                   alt="Golden Legacy Logo" 
                   fill 
-                  className="object-contain p-2"
+                  className="object-contain"
                 />
               </div>
               <div className="flex flex-col">
@@ -41,8 +41,18 @@ const Footer = () => {
               The premier business gateway to the UAE. Leveraging two decades of elite banking expertise to architect your corporate future in Dubai and beyond.
             </p>
             <div className="flex gap-4">
-              {[Facebook, Twitter, Linkedin, Instagram].map((Icon, i) => (
-                <a key={i} href="#" className="w-12 h-12 rounded-full glass flex items-center justify-center text-gray-400 hover:text-gold hover:border-gold/50 transition-all">
+              {[
+                { Icon: Facebook, href: 'https://www.facebook.com/profile.php?id=61587542722949' },
+                { Icon: Linkedin, href: 'https://www.linkedin.com/in/golden-legacy-corporate-services-legacy-8263a73aa/' },
+                { Icon: Instagram, href: 'https://www.instagram.com/goldenlegacy.ae/' }
+              ].map(({ Icon, href }, i) => (
+                <a 
+                  key={i} 
+                  href={href} 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 rounded-full glass flex items-center justify-center text-gray-400 hover:text-gold hover:border-gold/50 transition-all"
+                >
                   <Icon size={20} />
                 </a>
               ))}

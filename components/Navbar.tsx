@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown, Landmark, Globe2, Building2, Users, Phone, Home as HomeIcon, PlusCircle } from 'lucide-react';
 
@@ -97,13 +98,23 @@ const Navbar = () => {
       <div className={`max-w-[1600px] mx-auto px-4 sm:px-6 transition-all duration-500`}>
         <div className={`relative flex justify-between items-center px-6 rounded-full border transition-all duration-500 ${scrolled ? 'bg-black/60 backdrop-blur-2xl border-white/10 shadow-2xl h-16' : 'bg-black/5 backdrop-blur-md border-white/10 h-20'}`}>
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="group flex flex-col">
-              <span className="text-xl md:text-2xl font-black tracking-tighter text-white group-hover:text-gold transition-colors">
-                GOLDEN <span className="text-gold">LEGACY</span>
-              </span>
-              <span className="text-[10px] uppercase tracking-[0.4em] text-gray-400/80 font-bold -mt-1 group-hover:text-gold/80 transition-colors">
-                Corporate Services
-              </span>
+            <Link href="/" className="group flex items-center gap-3">
+              <div className="relative w-12 h-12 overflow-hidden rounded-xl">
+                <Image 
+                  src="/logo.png" 
+                  alt="Golden Legacy Logo" 
+                  fill 
+                  className="object-contain"
+                />
+              </div>
+              <div className="flex flex-col">
+                <span className="text-xl md:text-2xl font-black tracking-tighter text-white group-hover:text-gold transition-colors">
+                  GOLDEN <span className="text-gold">LEGACY</span>
+                </span>
+                <span className="text-[10px] uppercase tracking-[0.4em] text-gray-400/80 font-bold -mt-1 group-hover:text-gold/80 transition-colors">
+                  Corporate Services
+                </span>
+              </div>
             </Link>
           </div>
 

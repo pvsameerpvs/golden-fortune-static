@@ -1,11 +1,27 @@
 export const teamMembers = [
   {
+    slug: "jasbir-kaur-singh",
+    name: "Ms. Jasbir Kaur Singh",
+    role: "Owner & Director",
+    image: "/jasbir-kaur-singh.jpeg",
+    bio: "Ms. Jasbir Kaur Singh is the Owner and Director of Golden Fortune, providing the strategic vision and leadership that drives the company's success. With a heritage of business excellence and a deep commitment to client success, she oversees the firm's growth and ensures that every client receives the premium service that Golden Fortune stands for.",
+    message: "At Golden Fortune, we don't just set up companies; we build enduring legacies. My vision is to create a gateway for global entrepreneurs to thrive in the UAE's dynamic economy through excellence and integrity."
+  },
+  {
     slug: "arvind-pal-singh",
     name: "Mr. Arvind Pal Singh",
     role: "CEO",
     image: "/arvind-pal-singh.jpeg",
     bio: "Mr. Arvind Pal Singh is the visionary leader behind Golden Fortune, bringing decades of unparalleled expertise in the UAE's corporate landscape. As CEO, he has pioneered innovative business solutions, helping thousands of entrepreneurs navigate the complexities of company formation and strategic growth. His commitment to excellence and deep understanding of the jurisdictional nuances in the UAE make him a trusted advisor to global business leaders.",
     message: "I started this company at a time when the concept of business consultancies was still new, and people were quite hesitant to trust company formation experts to take over the planning process. Since then, Golden Fortune has come a long way – we have massively added to our clientele and expanded our list of services. Now, we cater to a larger pool of potential clients across many regions. Golden Fortune has become one of the top names in the industry and we aim to reach greater heights with our market expertise."
+  },
+  {
+    slug: "virender-kumar",
+    name: "Mr. Virender Kumar",
+    role: "Corporate Services Advisor",
+    image: "/virender-kumar.jpeg",
+    bio: "Mr. Virender Kumar serves as a Corporate Services Advisor, providing strategic guidance to entrepreneurs looking to establish or expand their business presence in the UAE. With deep knowledge of mainland and free zone regulations, he assists clients in selecting the most advantageous business structures and navigating the formation process with ease.",
+    message: "Building a business in the UAE is an exciting journey. I am here to ensure that your foundation is solid and that you are perfectly positioned to take advantage of the region's immense opportunities."
   },
   {
     slug: "fatema-rizvi",
@@ -17,21 +33,30 @@ export const teamMembers = [
   },
   {
     slug: "nikita-agarwal",
-    name: "Mrs Nikita Agarwal",
+    name: "Ms Nikita Agarwal",
     role: "Corporate Service Advisor",
     image: "/nikita-agarwal.jpeg",
     expertise: "Experience in CSP and Legal Drafting",
     profession: "Company Secretary (ICSI)",
-    bio: "Mrs Nikita Agarwal is a qualified Company Secretary (ICSI) with extensive experience in Corporate Service Provision (CSP) and legal drafting. She excels in navigating the intricate legal frameworks of the UAE, ensuring meticulous documentation and compliance for diverse business structures. Her professional background as a Company Secretary brings a high level of technical precision and governance expertise to every client engagement.",
+    bio: "Ms Nikita Agarwal is a qualified Company Secretary (ICSI) with extensive experience in Corporate Service Provision (CSP) and legal drafting. She excels in navigating the intricate legal frameworks of the UAE, ensuring meticulous documentation and compliance for diverse business structures. Her professional background as a Company Secretary brings a high level of technical precision and governance expertise to every client engagement.",
     message: "Precision in legal drafting and absolute compliance are the cornerstones of a successful business. My focus is on building robust corporate structures that stand the test of time and regulatory scrutiny."
   },
   {
     slug: "shabana-usman",
-    name: "Mrs Shabana Usman",
+    name: "Ms Shabana Usman",
     role: "Operations Manager",
     image: "/shabana-usman.jpeg",
     experience: "5 years",
-    bio: "Mrs Shabana Usman brings 5 years of dedicated experience to her role as Operations Manager at Golden Fortune. She oversees the day-to-day business processes, ensuring operational excellence and seamless coordination across departments. Her focus on efficiency and client satisfaction has been instrumental in maintaining the high standards of service that Golden Fortune is known for.",
+    bio: "Ms Shabana Usman brings 5 years of dedicated experience to her role as Operations Manager at Golden Fortune. She oversees the day-to-day business processes, ensuring operational excellence and seamless coordination across departments. Her focus on efficiency and client satisfaction has been instrumental in maintaining the high standards of service that Golden Fortune is known for.",
     message: "Operational efficiency is the heartbeat of Golden Fortune. We strive to provide a seamless experience for our clients, ensuring that every step of their journey with us is managed with the utmost care and professionalism."
+  },
+  {
+    slug: "santosh-gunjala",
+    name: "Mr Santosh Gunjala",
+    role: "PRO Service Provider",
+    image: "/santosh-gunjala.jpeg",
+    experience: "15 years",
+    bio: "Mr. Santosh Gunjala is a highly experienced PRO Service Provider with 15 years of expertise in navigating the UAE's administrative and governmental landscape. He specializes in document processing, visa services, and liaison with various government authorities, ensuring swift and efficient processing for our corporate clients.",
+    message: "With over 15 years in the industry, I understand that timing and accuracy are everything. My goal is to handle the administrative complexities so that our clients can focus entirely on their core business growth."
   }
 ];
