@@ -51,16 +51,6 @@ const Navbar = () => {
       ]
     },
     {
-      title: 'Offshore',
-      icon: <Globe2 className="w-4 h-4" />,
-      links: [
-        { name: 'Overview', href: '/offshore-company-formation-in-dubai' },
-        { name: 'RAK Offshore', href: '/rak-offshore-company-formation' },
-        { name: 'JAFZA Offshore', href: '/jafza-offshore-company-setup' },
-        { name: 'Ajman Offshore', href: '/ajman-offshore-company-setup' },
-      ]
-    },
-    {
       title: 'Banking',
       icon: <Landmark className="w-4 h-4" />,
       links: [
@@ -83,7 +73,7 @@ const Navbar = () => {
       ]
     },
     {
-      title: 'Company',
+      title: 'Contact Us',
       icon: <Users className="w-4 h-4" />,
       links: [
         { name: 'About Us', href: '/about-us' },

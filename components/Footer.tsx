@@ -18,7 +18,7 @@ const Footer = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-24">
-          <div className="lg:col-span-5 space-y-10">
+          <div className="lg:col-span-4 space-y-10">
              <Link href="/" className="group flex items-center gap-4">
               <div className="relative w-20 h-20 overflow-hidden rounded-2xl transition-all group-hover:scale-105">
                 <Image 
@@ -60,19 +60,28 @@ const Footer = () => {
           </div>
 
           <div className="lg:col-span-2">
-            <h4 className="text-white font-black uppercase tracking-widest text-sm mb-10">Quick Access</h4>
+            <h4 className="text-white font-black uppercase tracking-widest text-sm mb-10">Formation</h4>
             <ul className="space-y-5 text-gray-500 font-medium">
               <li><Link href="/mainland-company-formation-in-dubai" className="hover:text-gold transition-colors flex items-center gap-2 group">Mainland Setup <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
               <li><Link href="/dubai-free-zone-company-overview" className="hover:text-gold transition-colors flex items-center gap-2 group">Free Zone Centers <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
-              <li><Link href="/offshore-company-formation-in-dubai" className="hover:text-gold transition-colors flex items-center gap-2 group">Offshore Solutions <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
               <li><Link href="/bank-account-opening-dubai" className="hover:text-gold transition-colors flex items-center gap-2 group">Banking Services <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
               <li><Link href="/pro-services-dubai" className="hover:text-gold transition-colors flex items-center gap-2 group">Value Added Services <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
-              <li><Link href="/about-us" className="hover:text-gold transition-colors flex items-center gap-2 group">About Golden Legacy <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
+              <li><Link href="/about-us" className="hover:text-gold transition-colors flex items-center gap-2 group">About Us <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
+            </ul>
+          </div>
+
+          <div className="lg:col-span-2">
+            <h4 className="text-white font-black uppercase tracking-widest text-sm mb-10">Offshore</h4>
+            <ul className="space-y-5 text-gray-500 font-medium">
+              <li><Link href="/offshore-company-formation-in-dubai" className="hover:text-gold transition-colors flex items-center gap-2 group">Overview <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
+              <li><Link href="/rak-offshore-company-formation" className="hover:text-gold transition-colors flex items-center gap-2 group">RAK Offshore <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
+              <li><Link href="/jafza-offshore-company-setup" className="hover:text-gold transition-colors flex items-center gap-2 group">JAFZA Offshore <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
+              <li><Link href="/ajman-offshore-company-setup" className="hover:text-gold transition-colors flex items-center gap-2 group">Ajman Offshore <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
               <li><Link href="/contact" className="hover:text-gold transition-colors flex items-center gap-2 group">Contact Us <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-all" /></Link></li>
             </ul>
           </div>
 
-          <div className="lg:col-span-5">
+          <div className="lg:col-span-4">
             <h4 className="text-white font-black uppercase tracking-widest text-sm mb-10">Headquarters</h4>
             <div className="space-y-8">
               <div className="flex items-start gap-6 group">
