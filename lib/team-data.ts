@@ -20,7 +20,7 @@ export const teamMembers = [
     name: "Mr. Virender Kumar",
     role: "Corporate Services Advisor",
     image: "/virender-kumar.jpeg",
-    bio: "Mr. Virender Kumar serves as a Corporate Services Advisor, providing strategic guidance to entrepreneurs looking to establish or expand their business presence in the UAE. With deep knowledge of mainland and free zone regulations, he assists clients in selecting the most advantageous business structures and navigating the formation process with ease.",
+    bio: "Mr. Virender Kumar is a Corporate Services Advisor who brings over 20 years of elite UAE banking experience to the team. He uses his deep financial background to guide business owners through the process of setting up and growing in the Emirates. His mastery of both banking and government rules ensures that every business setup is professionally structured and optimized for success.",
     message: "Building a business in the UAE is an exciting journey. I am here to ensure that your foundation is solid and that you are perfectly positioned to take advantage of the region's immense opportunities."
   },
   {
@@ -38,7 +38,7 @@ export const teamMembers = [
     image: "/nikita-agarwal.jpeg",
     expertise: "Experience in CSP and Legal Drafting",
     profession: "Company Secretary (ICSI)",
-    bio: "Ms Nikita Agarwal is a qualified Company Secretary (ICSI) with extensive experience in Corporate Service Provision (CSP) and legal drafting. She excels in navigating the intricate legal frameworks of the UAE, ensuring meticulous documentation and compliance for diverse business structures. Her professional background as a Company Secretary brings a high level of technical precision and governance expertise to every client engagement.",
+    bio: "Ms Nikita Agarwal makes the complicated legal side of starting a business in the UAE look easy. As a qualified expert, she handles all the difficult paperwork and legal rules, making sure everything is done correctly and follows the law. She translates 'legal talk' into plain language so you can focus on your business while she takes care of the official documents and approvals.",
     message: "Precision in legal drafting and absolute compliance are the cornerstones of a successful business. My focus is on building robust corporate structures that stand the test of time and regulatory scrutiny."
   },
   {
@@ -58,5 +58,13 @@ export const teamMembers = [
     experience: "15 years",
     bio: "Mr. Santosh Gunjala is a highly experienced PRO Service Provider with 15 years of expertise in navigating the UAE's administrative and governmental landscape. He specializes in document processing, visa services, and liaison with various government authorities, ensuring swift and efficient processing for our corporate clients.",
     message: "With over 15 years in the industry, I understand that timing and accuracy are everything. My goal is to handle the administrative complexities so that our clients can focus entirely on their core business growth."
-  }
+  },
+  // {
+  //   slug: "hr-admin-operations",
+  //   name: "HR & Admin Support",
+  //   role: "HR & Admin",
+  //   image: "/logo.png",
+  //   bio: "The HR & Admin team provides the essential backbone for our company, coordinating closely with our Operations and PRO departments. They manage all internal processes and administrative tasks, ensuring that our advisors and experts have everything they need to deliver exceptional service to our clients. Their work ensures that the behind-the-scenes operations of Golden Fortune are as professional and efficient as our front-line services.",
+  //   message: "Exceptional service starts with a well-managed team. We ensure that our internal operations are perfectly synchronized with our clients' needs."
+  // }
 ];

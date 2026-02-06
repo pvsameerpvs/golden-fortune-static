@@ -7,7 +7,7 @@ const Stats = () => {
   const stats = [
     { label: "Successful Setups", val: "1000+", icon: <Briefcase /> },
     { label: "Expert Advisors", val: "25+", icon: <Users /> },
-    { label: "License Categories", val: "2000+", icon: <BarChart3 /> },
+    { label: "Business Activities", val: "2000+", icon: <BarChart3 /> },
     { label: "Client Satisfaction", val: "100%", icon: <Award /> },
   ];
 

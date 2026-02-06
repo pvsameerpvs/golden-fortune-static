@@ -20,9 +20,14 @@ const VisionMission = () => {
                 <Target size={48} className="text-gold group-hover:text-black transition-colors" />
               </div>
               <h3 className="text-4xl font-black mb-8 text-white tracking-tight">Our <span className="text-gold">Vision</span></h3>
-              <p className="text-2xl text-gray-400 font-light leading-relaxed italic">
-                "To leverage our elite banking experience to facilitate the <span className="text-white font-medium">seamless creation</span> of new companies in the UAE, equipping them with every tool required."
+              <p className="text-2xl text-gray-400 font-light leading-relaxed mb-6">
+                "Help <span className="text-gold font-bold">Entrepreneurs and startups</span> for visionary business development to facilitate <span className="text-white font-medium">seamless creation</span>."
               </p>
+              <div className="pt-6 border-t border-white/5">
+                <p className="text-gold font-black uppercase tracking-[0.2em] text-xs">
+                  Where business formation meets banking excellence
+                </p>
+              </div>
             </motion.div>
 
             <motion.div 
