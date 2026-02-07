@@ -13,15 +13,16 @@ const Team = () => {
       <div className="absolute top-1/2 right-0 w-96 h-96 bg-gold/5 blur-[120px] rounded-full -mr-48 pointer-events-none"></div>
       
       <div className="max-w-7xl mx-auto px-4 relative z-10">
-        <div className="text-center mb-24 space-y-4">
+        <div className="text-center mb-16 md:mb-24 space-y-4">
           <span className="text-gold font-black tracking-[0.4em] uppercase text-xs">Our Experts</span>
-          <h2 className="text-4xl md:text-6xl font-black text-white leading-tight">The Minds Behind <br /><span className="text-gradient-gold">Your Success</span></h2>
+          <h2 className="text-3xl md:text-6xl font-black text-white leading-tight">The Minds Behind <br /><span className="text-gradient-gold">Your Success</span></h2>
           <div className="w-24 h-1 bg-gold mx-auto rounded-full"></div>
         </div>
 
-        <div className="space-y-16">
+        {/* Improved Responsive Mobile Grid (1 column) vs Desktop Grid */}
+        <div className="space-y-8 md:space-y-16">
           {/* Line 1: Leadership (2 Members) */}
-          <div className="grid grid-cols-2 gap-6 max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
             {teamMembers.slice(0, 2).map((member, idx) => (
               <motion.div
                 key={member.slug}
@@ -29,7 +30,6 @@ const Team = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: idx * 0.1 }}
                 viewport={{ once: true }}
-                className="group"
               >
                 <TeamMemberCard member={member} />
               </motion.div>
@@ -37,15 +37,14 @@ const Team = () => {
           </div>
 
           {/* Line 2: Advisory (3 Members) */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {teamMembers.slice(2, 5).map((member, idx) => (
               <motion.div
                 key={member.slug}
                 initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8, delay: idx * 0.1 + 0.2 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: idx * 0.1 }}
                 viewport={{ once: true }}
-                className="group"
               >
                 <TeamMemberCard member={member} />
               </motion.div>
@@ -53,15 +52,14 @@ const Team = () => {
           </div>
 
           {/* Line 3: Operations & PRO (2 Members) */}
-          <div className="grid grid-cols-2 gap-6 max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
             {teamMembers.slice(5, 7).map((member, idx) => (
               <motion.div
                 key={member.slug}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: idx * 0.1 + 0.4 }}
+                transition={{ duration: 0.8, delay: idx * 0.1 }}
                 viewport={{ once: true }}
-                className="group"
               >
                 <TeamMemberCard member={member} />
               </motion.div>
@@ -74,8 +72,8 @@ const Team = () => {
 };
 
 const TeamMemberCard = ({ member }: { member: any }) => (
-  <Link href={`/team/${member.slug}`}>
-    <div className="relative h-[580px] rounded-[24px] overflow-hidden border border-white/5 group-hover:border-gold/30 transition-all duration-700 bg-[#0a0a0a]">
+  <Link href={`/team/${member.slug}`} className="block">
+    <div className="relative h-[500px] md:h-[580px] rounded-[24px] overflow-hidden border border-white/5 hover:border-gold/30 transition-all duration-700 bg-[#0a0a0a] group">
       <Image
         src={member.image}
         alt={member.name}
@@ -84,23 +82,23 @@ const TeamMemberCard = ({ member }: { member: any }) => (
       />
       
       {/* Premium Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-700"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-700"></div>
       
-      <div className="absolute bottom-0 left-0 w-full p-6">
-        <div className="space-y-3">
-          <div className="translate-y-2 group-hover:translate-y-0 transition-transform duration-700">
-            <h4 className="text-xl font-bold text-white mb-1 leading-tight">{member.name}</h4>
+      <div className="absolute bottom-0 left-0 w-full p-6 md:p-8">
+        <div className="space-y-4">
+          <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-700">
+            <h4 className="text-2xl md:text-xl font-bold text-white mb-1 leading-tight">{member.name}</h4>
             <div className="flex items-center gap-2">
-              <div className="w-4 h-[1px] bg-gold"></div>
-              <p className="text-gold font-black uppercase tracking-[0.2em] text-[8px]">{member.role}</p>
+              <div className="w-6 h-[1px] bg-gold"></div>
+              <p className="text-gold font-black uppercase tracking-[0.2em] text-[10px] md:text-[8px]">{member.role}</p>
             </div>
           </div>
           
-          <div className="overflow-hidden height-0 group-hover:h-auto opacity-0 group-hover:opacity-100 transition-all duration-700 delay-100">
-            <p className="text-gray-400 text-[10px] leading-relaxed font-light line-clamp-3 mb-4">
+          <div className="overflow-hidden h-0 group-hover:h-auto opacity-0 group-hover:opacity-100 transition-all duration-700 delay-100">
+            <p className="text-gray-400 text-xs md:text-[10px] leading-relaxed font-light line-clamp-3 mb-4">
               {member.bio}
             </p>
-            <span className="text-gold text-[10px] font-black uppercase tracking-wider border-b border-gold/30 pb-0.5">Explore Legacy →</span>
+            <span className="text-gold text-[10px] font-black uppercase tracking-wider border-b border-gold/30 pb-0.5 inline-block">Explore Legacy →</span>
           </div>
         </div>
       </div>
@@ -109,4 +107,5 @@ const TeamMemberCard = ({ member }: { member: any }) => (
 );
 
 export default Team;
+
 
