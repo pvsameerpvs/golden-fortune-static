@@ -19,53 +19,94 @@ const Team = () => {
           <div className="w-24 h-1 bg-gold mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {teamMembers.map((member, idx) => (
-            <motion.div
-              key={idx}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: idx * 0.1 }}
-              viewport={{ once: true }}
-              className="group"
-            >
-              <Link href={`/team/${member.slug}`}>
-                <div className="relative h-[500px] rounded-[32px] overflow-hidden border border-white/5 group-hover:border-gold/30 transition-all duration-700 bg-[#0a0a0a]">
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    fill
-                    className="object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
-                  />
-                  
-                  {/* Overlay with info on hover */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-60 group-hover:opacity-90 transition-opacity duration-700"></div>
-                  
-                  <div className="absolute bottom-0 left-0 w-full p-8 translate-y-4 group-hover:translate-y-0 transition-transform duration-700">
-                    <div className="space-y-3">
-                      <div>
-                        <h4 className="text-xl font-bold text-white mb-1">{member.name}</h4>
-                        <p className="text-gold/80 font-bold uppercase tracking-widest text-[10px]">{member.role}</p>
-                      </div>
-                      
-                      <p className="text-gray-400 text-xs leading-relaxed font-light opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-100 line-clamp-3">
-                        {member.bio}
-                      </p>
+        <div className="space-y-16">
+          {/* Line 1: Leadership (2 Members) */}
+          <div className="grid grid-cols-2 gap-6 max-w-2xl mx-auto">
+            {teamMembers.slice(0, 2).map((member, idx) => (
+              <motion.div
+                key={member.slug}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: idx * 0.1 }}
+                viewport={{ once: true }}
+                className="group"
+              >
+                <TeamMemberCard member={member} />
+              </motion.div>
+            ))}
+          </div>
 
-                      <div className="pt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-200">
-                        <span className="text-gold text-xs font-bold uppercase tracking-wider border-b border-gold/30 pb-1">View Profile</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </motion.div>
-          ))}
+          {/* Line 2: Advisory (3 Members) */}
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            {teamMembers.slice(2, 5).map((member, idx) => (
+              <motion.div
+                key={member.slug}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: idx * 0.1 + 0.2 }}
+                viewport={{ once: true }}
+                className="group"
+              >
+                <TeamMemberCard member={member} />
+              </motion.div>
+            ))}
+          </div>
+
+          {/* Line 3: Operations & PRO (2 Members) */}
+          <div className="grid grid-cols-2 gap-6 max-w-2xl mx-auto">
+            {teamMembers.slice(5, 7).map((member, idx) => (
+              <motion.div
+                key={member.slug}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: idx * 0.1 + 0.4 }}
+                viewport={{ once: true }}
+                className="group"
+              >
+                <TeamMemberCard member={member} />
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
   );
 };
+
+const TeamMemberCard = ({ member }: { member: any }) => (
+  <Link href={`/team/${member.slug}`}>
+    <div className="relative h-[580px] rounded-[24px] overflow-hidden border border-white/5 group-hover:border-gold/30 transition-all duration-700 bg-[#0a0a0a]">
+      <Image
+        src={member.image}
+        alt={member.name}
+        fill
+        className="object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
+      />
+      
+      {/* Premium Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-700"></div>
+      
+      <div className="absolute bottom-0 left-0 w-full p-6">
+        <div className="space-y-3">
+          <div className="translate-y-2 group-hover:translate-y-0 transition-transform duration-700">
+            <h4 className="text-xl font-bold text-white mb-1 leading-tight">{member.name}</h4>
+            <div className="flex items-center gap-2">
+              <div className="w-4 h-[1px] bg-gold"></div>
+              <p className="text-gold font-black uppercase tracking-[0.2em] text-[8px]">{member.role}</p>
+            </div>
+          </div>
+          
+          <div className="overflow-hidden height-0 group-hover:h-auto opacity-0 group-hover:opacity-100 transition-all duration-700 delay-100">
+            <p className="text-gray-400 text-[10px] leading-relaxed font-light line-clamp-3 mb-4">
+              {member.bio}
+            </p>
+            <span className="text-gold text-[10px] font-black uppercase tracking-wider border-b border-gold/30 pb-0.5">Explore Legacy →</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Link>
+);
 
 export default Team;
 
