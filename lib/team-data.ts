@@ -1,17 +1,17 @@
 export const teamMembers = [
   {
     slug: "jasbir-kaur-singh",
-    name: "Ms. Jasbir Kaur Singh",
+    name: "Ms. Jasbir Kaur",
     role: "Owner & Director",
-    image: "/jasbir-kaur-singh.jpeg",
+    image: "/jasbir-kaur-singh.png",
     bio: "Ms. Jasbir Kaur Singh is the Owner and Director of Golden Fortune, providing the strategic vision and leadership that drives the company's success. With a heritage of business excellence and a deep commitment to client success, she oversees the firm's growth and ensures that every client receives the premium service that Golden Fortune stands for.",
     message: "At Golden Fortune, we don't just set up companies; we build enduring legacies. My vision is to create a gateway for global entrepreneurs to thrive in the UAE's dynamic economy through excellence and integrity."
   },
   {
     slug: "arvind-pal-singh",
-    name: "Mr. Arvind Pal Singh",
+    name: "Mr. Arvind Pal",
     role: "CEO",
-    image: "/arvind-pal-singh.jpeg",
+    image: "/arvind-pal-singh.png",
     bio: "Mr. Arvind Pal Singh is the visionary leader behind Golden Fortune, bringing decades of unparalleled expertise in the UAE's corporate landscape. As CEO, he has pioneered innovative business solutions, helping thousands of entrepreneurs navigate the complexities of company formation and strategic growth. His commitment to excellence and deep understanding of the jurisdictional nuances in the UAE make him a trusted advisor to global business leaders.",
     message: "I started this company at a time when the concept of business consultancies was still new, and people were quite hesitant to trust company formation experts to take over the planning process. Since then, Golden Fortune has come a long way – we have massively added to our clientele and expanded our list of services. Now, we cater to a larger pool of potential clients across many regions. Golden Fortune has become one of the top names in the industry and we aim to reach greater heights with our market expertise."
   },
@@ -19,7 +19,7 @@ export const teamMembers = [
     slug: "virender-kumar",
     name: "Mr. Virender Kumar",
     role: "Corporate Services Advisor",
-    image: "/virender-kumar.jpeg",
+    image: "/virender-kumar.png",
     bio: "Mr. Virender Kumar is a Corporate Services Advisor who brings over 20 years of elite UAE banking experience to the team. He uses his deep financial background to guide business owners through the process of setting up and growing in the Emirates. His mastery of both banking and government rules ensures that every business setup is professionally structured and optimized for success.",
     message: "Building a business in the UAE is an exciting journey. I am here to ensure that your foundation is solid and that you are perfectly positioned to take advantage of the region's immense opportunities."
   },
@@ -27,7 +27,7 @@ export const teamMembers = [
     slug: "fatema-rizvi",
     name: "Ms Fatema Rizvi",
     role: "Corporate Services Advisor",
-    image: "/fatema-rizvi.jpeg",
+    image: "/fatema-rizvi.png",
     bio: "Ms Fatema Rizvi serves as a Corporate Services Advisor at Golden Fortune, specializing in providing comprehensive business setup solutions. With a keen eye for detail and a client-centric approach, she guides businesses through licensing, regulatory compliance, and strategic planning. Her expertise ensures that our clients receive the most efficient and effective paths to establishing their presence in the UAE market.",
     message: "Navigating the UAE's regulatory landscape requires more than just knowledge; it requires a commitment to the client's vision. My goal is to simplify the complex and provide clear, actionable advice that empowers entrepreneurs to succeed."
   },
@@ -35,7 +35,7 @@ export const teamMembers = [
     slug: "nikita-agarwal",
     name: "Ms Nikita Agarwal",
     role: "Corporate Service Advisor",
-    image: "/nikita-agarwal.jpeg",
+    image: "/nikita-agarwal.png",
     expertise: "Experience in CSP and Legal Drafting",
     profession: "Company Secretary (ICSI)",
     bio: "Ms Nikita Agarwal makes the complicated legal side of starting a business in the UAE look easy. As a qualified expert, she handles all the difficult paperwork and legal rules, making sure everything is done correctly and follows the law. She translates 'legal talk' into plain language so you can focus on your business while she takes care of the official documents and approvals.",
@@ -45,7 +45,7 @@ export const teamMembers = [
     slug: "shabana-usman",
     name: "Ms Shabana Usman",
     role: "Operations Manager",
-    image: "/shabana-usman.jpeg",
+    image: "/shabana-usman.png",
     experience: "5 years",
     bio: "Ms Shabana Usman brings 5 years of dedicated experience to her role as Operations Manager at Golden Fortune. She oversees the day-to-day business processes, ensuring operational excellence and seamless coordination across departments. Her focus on efficiency and client satisfaction has been instrumental in maintaining the high standards of service that Golden Fortune is known for.",
     message: "Operational efficiency is the heartbeat of Golden Fortune. We strive to provide a seamless experience for our clients, ensuring that every step of their journey with us is managed with the utmost care and professionalism."
@@ -54,7 +54,7 @@ export const teamMembers = [
     slug: "santosh-gunjala",
     name: "Mr Santosh Gunjala",
     role: "PRO Service Provider",
-    image: "/santosh-gunjala.jpeg",
+    image: "/santosh-gunjala.png",
     experience: "15 years",
     bio: "Mr. Santosh Gunjala is a highly experienced PRO Service Provider with 15 years of expertise in navigating the UAE's administrative and governmental landscape. He specializes in document processing, visa services, and liaison with various government authorities, ensuring swift and efficient processing for our corporate clients.",
     message: "With over 15 years in the industry, I understand that timing and accuracy are everything. My goal is to handle the administrative complexities so that our clients can focus entirely on their core business growth."
