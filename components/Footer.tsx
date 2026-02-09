@@ -119,20 +119,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
-           <div className="space-y-2 text-center md:text-left">
-              <p className="text-gray-600 text-[10px] font-black tracking-[0.3em] uppercase">
-                © {new Date().getFullYear()} GOLDEN LEGACY CORPORATE SERVICES
-              </p>
-              <p className="text-gray-800 text-[9px] font-bold tracking-[0.2em] uppercase">
-                Excellence Personified. UAE Licensed Provider.
-              </p>
-           </div>
+         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-end items-center gap-8">
            
-           <div className="flex gap-10">
-              <Link href="#" className="text-gray-600 hover:text-gold text-[10px] font-black tracking-widest uppercase transition-colors">Privacy Policy</Link>
-              <Link href="#" className="text-gray-600 hover:text-gold text-[10px] font-black tracking-widest uppercase transition-colors">Terms of Service</Link>
-           </div>
+           
+           
 
            <button 
              onClick={scrollToTop}
