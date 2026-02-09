@@ -57,7 +57,7 @@ const Hero = () => {
             </motion.div>
 
             {/* Main Title */}
-            <h1 className="text-5xl sm:text-7xl lg:text-[10rem] font-black leading-[0.9] tracking-tighter text-white">
+            <h1 className="text-4xl sm:text-6xl lg:text-[7.5rem] font-black leading-[0.9] tracking-tighter text-white">
               BUILDING <br />
               <span className="text-gradient-gold">LEGACIES</span>
             </h1>
