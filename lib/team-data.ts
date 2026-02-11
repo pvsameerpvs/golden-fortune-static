@@ -20,7 +20,8 @@ export const teamMembers = [
     name: "Mr. Virender Kumar",
     role: "Corporate Services Advisor",
     image: "/virender-kumar.png",
-    bio: "Mr. Virender Kumar is a Corporate Services Advisor who brings over 20 years of elite UAE banking experience to the team. He uses his deep financial background to guide business owners through the process of setting up and growing in the Emirates. His mastery of both banking and government rules ensures that every business setup is professionally structured and optimized for success.",
+    experience: "2 Decades",
+    bio: "Mr. Virender Kumar is a distinguished Corporate Services Advisor bringing two decades of elite banking experience in the UAE to Golden Fortune. He leverages his deep financial expertise to guide entrepreneurs through the intricacies of business setup and banking operations. His commanding knowledge of financial institutions and government regulations ensures that every client's business structure is optimized for long-term growth and stability.",
     message: "Building a business in the UAE is an exciting journey. I am here to ensure that your foundation is solid and that you are perfectly positioned to take advantage of the region's immense opportunities."
   },
   {
@@ -38,8 +39,8 @@ export const teamMembers = [
     image: "/nikita-agarwal.png",
     expertise: "Experience in CSP and Legal Drafting",
     profession: "Company Secretary (ICSI)",
-    bio: "Ms Nikita Agarwal makes the complicated legal side of starting a business in the UAE look easy. As a qualified expert, she handles all the difficult paperwork and legal rules, making sure everything is done correctly and follows the law. She translates 'legal talk' into plain language so you can focus on your business while she takes care of the official documents and approvals.",
-    message: "Precision in legal drafting and absolute compliance are the cornerstones of a successful business. My focus is on building robust corporate structures that stand the test of time and regulatory scrutiny."
+    bio: "Ms. Nikita Agarwal specializes in making the complex world of UAE business laws easy to understand. She takes the stress out of legal paperwork by explaining everything in simple, plain language, so you never feel lost in jargon. As a qualified Company Secretary, she handles the heavy lifting of compliance and documentation, allowing you to focus on running your business while knowing every legal detail is expertly managed.",
+    message: "Precision in legal drafting and absolute compliance are the cornerstones of a successful business. My focus is on breaking down barriers and making the legal process transparent and accessible for every entrepreneur."
   },
   {
     slug: "shabana-usman",

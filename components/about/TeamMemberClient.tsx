@@ -90,6 +90,12 @@ const TeamMemberClient = ({ member }: { member: TeamMember }) => {
                 )}
               </div>
             )}
+            
+            <div className="pt-8 border-t border-white/10">
+              <p className="text-white/70 leading-relaxed font-light text-sm md:text-base">
+                {member.bio}
+              </p>
+            </div>
           </motion.div>
 
           {/* Right Column: Image */}
