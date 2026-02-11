@@ -35,13 +35,13 @@ const Hero = () => {
       </div>
 
       {/* Main Content Container with Navbar Offset */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 lg:pt-32">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex flex-col items-center text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="flex flex-col items-center space-y-8 md:space-y-12"
+            className="flex flex-col items-center space-y-4 md:space-y-6"
           >
             {/* The "Golden Legacy" Label */}
             <motion.div 
@@ -50,14 +50,14 @@ const Hero = () => {
               transition={{ delay: 0.2, duration: 0.6 }}
               className="flex flex-col items-center gap-4"
             >
-              <h3 className="text-gold text-sm md:text-xl font-black tracking-[0.6em] uppercase">
+              <h3 className="text-gold text-xl md:text-3xl font-black tracking-[0.6em] uppercase">
                 GOLDEN LEGACY
               </h3>
               <div className="w-16 h-[1px] bg-gold/40"></div>
             </motion.div>
 
             {/* Main Title */}
-            <h1 className="text-4xl sm:text-6xl lg:text-[7.5rem] font-black leading-[0.9] tracking-tighter text-white">
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black leading-[0.9] tracking-tighter text-white">
               BUILDING <br />
               <span className="text-gradient-gold">LEGACIES</span>
             </h1>
@@ -66,8 +66,12 @@ const Hero = () => {
               Strategic business formation and elite banking solutions in Dubai for <span className="text-white font-medium">visionary entrepreneurs</span>.
             </p>
 
-            {/* Premium CTA Group */}
-             <div className="flex-1 flex flex-col justify-end pb-12 items-center">
+          </motion.div>
+        </div>
+      </div>
+
+      {/* Bottom CTA & Scroll Indicator */}
+      <div className="absolute bottom-0 left-0 w-full z-20 pb-4 flex flex-col items-center justify-end">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -85,9 +89,6 @@ const Hero = () => {
               <div className="w-px h-12 bg-gradient-to-b from-gold/40 via-gold/5 to-transparent"></div>
             </div>
           </motion.div>
-        </div>
-          </motion.div>
-        </div>
       </div>
     </section>
   );
