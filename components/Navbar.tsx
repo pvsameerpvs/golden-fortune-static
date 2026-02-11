@@ -78,6 +78,7 @@ const Navbar = () => {
       links: [
         { name: 'About Us', href: '/about-us' },
         { name: 'Cost Calculator', href: '/cost-calculator' },
+        { name: 'Blog', href: '/blog' },
         { name: 'Contact', href: '/contact' },
       ]
     }
