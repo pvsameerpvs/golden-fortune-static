@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import { Shield, Trophy, ArrowRight, CheckCircle2 } from 'lucide-react';
 
 const About = () => {
@@ -118,13 +119,10 @@ const About = () => {
             </div>
 
             <div className="pt-8 sm:pt-10 flex flex-wrap gap-4">
-              <button className="btn-premium group flex items-center gap-3">
-                Expert Consultation
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
-              <button className="px-8 py-3 rounded-full border border-gold/30 text-white font-bold hover:bg-gold/10 transition-all">
+             
+              <Link href="/services" className="px-8 py-3 rounded-full border border-gold/30 text-white font-bold hover:bg-gold/10 transition-all text-center">
                 Our Services
-              </button>
+              </Link>
             </div>
           </motion.div>
         </div>

@@ -92,7 +92,7 @@ const TeamMemberClient = ({ member }: { member: TeamMember }) => {
             )}
             
             <div className="pt-8 border-t border-white/10">
-              <p className="text-white/70 leading-relaxed font-light text-sm md:text-base">
+              <p className="text-white/70 leading-relaxed font-light text-sm md:text-base whitespace-pre-line">
                 {member.bio}
               </p>
             </div>

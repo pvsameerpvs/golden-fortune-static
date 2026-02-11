@@ -12,7 +12,7 @@ export const teamMembers = [
     name: "Mr. Arvind Pal",
     role: "CEO",
     image: "/arvind-pal-singh.png",
-    bio: "Mr. Arvind Pal Singh is the visionary leader behind Golden Fortune, bringing decades of unparalleled expertise in the UAE's corporate landscape. As CEO, he has pioneered innovative business solutions, helping thousands of entrepreneurs navigate the complexities of company formation and strategic growth. His commitment to excellence and deep understanding of the jurisdictional nuances in the UAE make him a trusted advisor to global business leaders.",
+    bio: `Arvind Pal Singh Arora is an entrepreneur and business leader who founded Golden Fortune Corporate Service Provider during COVID-19 to support UAE SMEs. Leveraging his extensive experience in banking, insurance, and corporate services, he has helped businesses navigate setups, advisory, and growth. Under his leadership, Golden Fortune continues to empower entrepreneurs, foster collaborations, and transform the SME landscape in the UAE and beyond.`,
     message: "I started this company at a time when the concept of business consultancies was still new, and people were quite hesitant to trust company formation experts to take over the planning process. Since then, Golden Fortune has come a long way – we have massively added to our clientele and expanded our list of services. Now, we cater to a larger pool of potential clients across many regions. Golden Fortune has become one of the top names in the industry and we aim to reach greater heights with our market expertise."
   },
   {
