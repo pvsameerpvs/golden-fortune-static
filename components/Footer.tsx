@@ -102,7 +102,7 @@ const Footer = () => {
                   <p className="text-white font-bold mb-1">Direct Lines</p>
                   <div className="flex flex-col gap-1">
                     <a href="tel:+971526065777" className="text-gray-500 hover:text-gold transition-colors">+971 52 606 5777</a>
-                    <a href="tel:+97144569557" className="text-gray-500 hover:text-gold transition-colors">+971 44569557 (Landline)</a>
+
                   </div>
                 </div>
               </div>
@@ -113,7 +113,10 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-white font-bold mb-1">Email Inquiry</p>
-                  <Link href="/contact" className="text-gray-500 hover:text-gold transition-colors italic">Send Secure Message</Link>
+                  <div className="flex flex-col gap-1">
+                    <a href="mailto:info@goldenlegacy.ae" className="text-gray-500 hover:text-gold transition-colors">info@goldenlegacy.ae</a>
+                    <Link href="/contact" className="text-gray-500 hover:text-gold transition-colors italic">Send Secure Message</Link>
+                  </div>
                 </div>
               </div>
             </div>
