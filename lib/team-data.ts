@@ -60,12 +60,12 @@ export const teamMembers = [
     bio: "Mr. Santosh Gunjala is a highly experienced PRO Service Provider with 15 years of expertise in navigating the UAE's administrative and governmental landscape. He specializes in document processing, visa services, and liaison with various government authorities, ensuring swift and efficient processing for our corporate clients.",
     message: "With over 15 years in the industry, I understand that timing and accuracy are everything. My goal is to handle the administrative complexities so that our clients can focus entirely on their core business growth."
   },
-  // {
-  //   slug: "hr-admin-operations",
-  //   name: "HR & Admin Support",
-  //   role: "HR & Admin",
-  //   image: "/logo.png",
-  //   bio: "The HR & Admin team provides the essential backbone for our company, coordinating closely with our Operations and PRO departments. They manage all internal processes and administrative tasks, ensuring that our advisors and experts have everything they need to deliver exceptional service to our clients. Their work ensures that the behind-the-scenes operations of Golden Fortune are as professional and efficient as our front-line services.",
-  //   message: "Exceptional service starts with a well-managed team. We ensure that our internal operations are perfectly synchronized with our clients' needs."
-  // }
+  {
+    slug: "prathibha-mathew",
+    name: "Ms Prathibha Mathew",
+    role: "HR & Admin",
+    image: "/prathibha-mathew.jpeg",
+    bio: "Ms. Prathibha Mathew serves as HR & Admin at Golden Fortune, working closely with our operations and PRO teams to ensure seamless internal processes. Dedicated to organizational excellence, she manages administrative functions that support our entire team in delivering premium corporate services to our global clients.",
+    message: "Efficiency and coordination are the foundation of our success. I am dedicated to ensuring that our internal operations run smoothly so that our experts can focus on what they do best – helping your business thrive."
+  }
 ];
