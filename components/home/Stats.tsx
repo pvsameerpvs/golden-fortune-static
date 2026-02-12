@@ -23,10 +23,10 @@ const Stats = () => {
                 <div className="text-black/80 flex justify-center transform group-hover:scale-110 transition-transform duration-500">
                   {stat.icon}
                 </div>
-                <div className="text-5xl md:text-7xl font-black text-black tracking-tighter">
+                <div className="text-3xl md:text-5xl font-black text-black tracking-tighter">
                   {stat.val}
                 </div>
-                <div className="text-black/60 font-black tracking-[0.2em] uppercase text-[10px] md:text-xs">
+                <div className="text-black/60 font-black tracking-[0.2em] uppercase text-[8px] md:text-[10px]">
                   {stat.label}
                 </div>
                 <div className="w-12 h-1 bg-black/10 mx-auto rounded-full group-hover:w-24 group-hover:bg-black transition-all duration-500"></div>
