@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Building2, Zap, Globe2, ArrowRight, Landmark, PlusCircle } from 'lucide-react';
+import { Building2, Zap, Globe2, ArrowRight, Landmark, PlusCircle, FileCheck } from 'lucide-react';
 
 const container = {
   hidden: { opacity: 0 },
@@ -54,10 +54,17 @@ const CoreServices = () => {
     },
     {
       title: "Value Added Services",
-      desc: "Comprehensive corporate support including Wills, Golden Visas, PRO, VAT, and ISO certification.",
+      desc: "Comprehensive corporate support including Golden Visas, PRO, VAT, and ISO certification.",
       img: "/images/freezone.png",
       link: "/pro-services-dubai",
       icon: <PlusCircle className="text-gold mb-4" />
+    },
+    {
+      title: "UAE Wills Service",
+      desc: "Secure your legacy and protect your assets with legally compliant Will drafting and registration.",
+      img: "/images/wills-service.png",
+      link: "/uae-wills-service",
+      icon: <FileCheck className="text-gold mb-4" />
     }
   ];
 
