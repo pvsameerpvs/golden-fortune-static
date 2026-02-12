@@ -12,6 +12,7 @@ export const teamMembers = [
     name: "Mr. Arvind Pal",
     role: "CEO",
     image: "/arvind-pal-singh.png",
+    linkedin: "https://www.linkedin.com/in/arvind-pal-singh-arora-753b4a53",
     bio: `Arvind Pal Singh Arora is an entrepreneur and business leader who founded Golden Fortune Corporate Service Provider during COVID-19 to support UAE SMEs. Leveraging his extensive experience in banking, insurance, and corporate services, he has helped businesses navigate setups, advisory, and growth. Under his leadership, Golden Fortune continues to empower entrepreneurs, foster collaborations, and transform the SME landscape in the UAE and beyond.`,
     message: "I started this company at a time when the concept of business consultancies was still new, and people were quite hesitant to trust company formation experts to take over the planning process. Since then, Golden Fortune has come a long way – we have massively added to our clientele and expanded our list of services. Now, we cater to a larger pool of potential clients across many regions. Golden Fortune has become one of the top names in the industry and we aim to reach greater heights with our market expertise."
   },
@@ -20,6 +21,7 @@ export const teamMembers = [
     name: "Mr. Virender Kumar",
     role: "Corporate Services Advisor",
     image: "/virender-kumar.png",
+    linkedin: "https://www.linkedin.com/in/virender-kumar-b966616a/",
     experience: "2 Decades",
     bio: "Mr. Virender Kumar is a distinguished Corporate Services Advisor bringing two decades of elite banking experience in the UAE to Golden Fortune. He leverages his deep financial expertise to guide entrepreneurs through the intricacies of business setup and banking operations. His commanding knowledge of financial institutions and government regulations ensures that every client's business structure is optimized for long-term growth and stability.",
     message: "Building a business in the UAE is an exciting journey. I am here to ensure that your foundation is solid and that you are perfectly positioned to take advantage of the region's immense opportunities."
@@ -29,6 +31,7 @@ export const teamMembers = [
     name: "Ms Fatema Rizvi",
     role: "Corporate Services Advisor",
     image: "/fatema-rizvi.png",
+    linkedin: "https://www.linkedin.com/in/fatema-rizvi-74673298",
     bio: "Ms Fatema Rizvi serves as a Corporate Services Advisor at Golden Fortune, specializing in providing comprehensive business setup solutions. With a keen eye for detail and a client-centric approach, she guides businesses through licensing, regulatory compliance, and strategic planning. Her expertise ensures that our clients receive the most efficient and effective paths to establishing their presence in the UAE market.",
     message: "Navigating the UAE's regulatory landscape requires more than just knowledge; it requires a commitment to the client's vision. My goal is to simplify the complex and provide clear, actionable advice that empowers entrepreneurs to succeed."
   },
@@ -37,6 +40,7 @@ export const teamMembers = [
     name: "Ms Nikita Agarwal",
     role: "Corporate Service Advisor",
     image: "/nikita-agarwal.png",
+    linkedin: "https://www.linkedin.com/in/nikita-agarwal-cs",
     expertise: "Experience in CSP and Legal Drafting",
     profession: "Company Secretary (ICSI)",
     bio: "Ms. Nikita Agarwal specializes in making the complex world of UAE business laws easy to understand. She takes the stress out of legal paperwork by explaining everything in simple, plain language, so you never feel lost in jargon. As a qualified Company Secretary, she handles the heavy lifting of compliance and documentation, allowing you to focus on running your business while knowing every legal detail is expertly managed.",
@@ -47,6 +51,7 @@ export const teamMembers = [
     name: "Ms Shabana Usman",
     role: "Operations Manager",
     image: "/shabana-usman.png",
+    linkedin: "https://www.linkedin.com/in/shabana-usman-21293722b",
     experience: "5 years",
     bio: "Ms Shabana Usman brings 5 years of dedicated experience to her role as Operations Manager at Golden Fortune. She oversees the day-to-day business processes, ensuring operational excellence and seamless coordination across departments. Her focus on efficiency and client satisfaction has been instrumental in maintaining the high standards of service that Golden Fortune is known for.",
     message: "Operational efficiency is the heartbeat of Golden Fortune. We strive to provide a seamless experience for our clients, ensuring that every step of their journey with us is managed with the utmost care and professionalism."
@@ -65,6 +70,7 @@ export const teamMembers = [
     name: "Ms Prathibha Mathew",
     role: "HR & Admin",
     image: "/prathibha-mathew.jpeg",
+    linkedin: "https://www.linkedin.com/in/prathibha-mathew-6192a0122/",
     bio: "Ms. Prathibha Mathew serves as HR & Admin at Golden Fortune, working closely with our operations and PRO teams to ensure seamless internal processes. Dedicated to organizational excellence, she manages administrative functions that support our entire team in delivering premium corporate services to our global clients.",
     message: "Efficiency and coordination are the foundation of our success. I am dedicated to ensuring that our internal operations run smoothly so that our experts can focus on what they do best – helping your business thrive."
   }
