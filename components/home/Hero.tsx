@@ -83,6 +83,11 @@ const Hero = () => {
                 Calculate Setup Cost
               </Link>
             </div>
+            <div className="hidden xl:block">
+              <Link href="/services" className="btn-outline-gold !px-8 !py-3 !text-xs !rounded-full uppercase tracking-[0.2em] font-black backdrop-blur-sm">
+               Services
+              </Link>
+            </div>
             
             <div className="flex flex-col items-center gap-3">
               <span className="text-white/40 text-[9px] tracking-[0.4em] uppercase font-bold">Scroll to Explore</span>
