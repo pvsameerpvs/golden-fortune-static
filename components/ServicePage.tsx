@@ -16,7 +16,7 @@ interface ServicePageProps {
   sections?: {
     title: string;
     content?: string | string[];
-    list?: string[];
+    list?: (string | { name: string; logo: string })[];
   }[];
   hallmarksTitle?: string;
   hallmarks?: {
@@ -127,14 +127,26 @@ const ServicePage = ({
                   
                   {section.list && (
                     <div className="grid md:grid-cols-2 gap-6">
-                      {section.list.map((item, i) => (
-                        <div key={i} className="bg-white/5 p-6 rounded-3xl flex items-start gap-4 hover:bg-white/10 transition-all border border-white/5 hover:border-gold/30 group">
-                          <div className="w-6 h-6 bg-gold/10 rounded-full flex items-center justify-center shrink-0 mt-1 group-hover:bg-gold transition-colors">
-                            <CheckCircle2 className="text-gold group-hover:text-black w-4 h-4 transition-colors" />
+                      {section.list.map((item, i) => {
+                         const isString = typeof item === 'string';
+                         const name = isString ? item : item.name;
+                         const logo = isString ? null : item.logo;
+                         
+                         return (
+                          <div key={i} className="bg-white/5 p-6 rounded-3xl flex items-center gap-6 hover:bg-white/10 transition-all border border-white/5 hover:border-gold/30 group">
+                            {logo ? (
+                              <div className="w-16 h-12 relative shrink-0 grayscale group-hover:grayscale-0 transition-all opacity-80 group-hover:opacity-100">
+                                <Image src={logo} alt={name} fill className="object-contain object-left" />
+                              </div>
+                            ) : (
+                              <div className="w-6 h-6 bg-gold/10 rounded-full flex items-center justify-center shrink-0 group-hover:bg-gold transition-colors">
+                                <CheckCircle2 className="text-gold group-hover:text-black w-4 h-4 transition-colors" />
+                              </div>
+                            )}
+                            <span className={`text-gray-300 font-medium text-sm leading-relaxed ${logo ? 'font-bold text-white' : ''}`}>{name}</span>
                           </div>
-                          <span className="text-gray-300 font-medium text-sm leading-relaxed">{item}</span>
-                        </div>
-                      ))}
+                         );
+                      })}
                     </div>
                   )}
                 </div>

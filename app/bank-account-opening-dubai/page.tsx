@@ -26,13 +26,13 @@ export default function BankAccountServices() {
           title: "Our Banking Partners",
           content: "We work closely with the most reputable financial institutions in the UAE to provide seamless integration for our clients:",
           list: [
-            "Emirates NBD",
-            "Mashreq Bank",
-            "Dubai Islamic Bank (DIB)",
-            "Commercial Bank of Dubai (CBD)",
-            "First Abu Dhabi Bank (FAB)",
-            "ADCB",
-            "Wio Bank (Digital-first)"
+            { name: "Emirates NBD", logo: "/banks/emirates-nbd.svg" },
+            { name: "Mashreq Bank", logo: "/banks/mashreq-bank.svg" },
+            { name: "Dubai Islamic Bank (DIB)", logo: "/banks/dubai-islamic-bank.png" },
+            { name: "Commercial Bank of Dubai (CBD)", logo: "/banks/commercial-bank-of-dubai.svg" },
+            { name: "First Abu Dhabi Bank (FAB)", logo: "/banks/first-abu-dhabi-bank.svg" },
+            { name: "ADCB", logo: "/banks/adcb.png" },
+            { name: "Wio Bank (Digital-first)", logo: "/banks/wio-bank.jpeg" }
           ]
         },
         {
