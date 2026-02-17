@@ -104,7 +104,7 @@ const TeamMemberCard = ({ member }: { member: any }) => (
             <h4 className="text-2xl md:text-xl font-bold text-white mb-1 leading-tight">{member.name}</h4>
             <div className="flex items-center gap-2">
               <div className="w-6 h-[1px] bg-gold"></div>
-              <p className="text-gold font-black uppercase tracking-[0.2em] text-[12px] md:text-[10px]">{member.role}</p>
+              <p className="text-gold font-black uppercase tracking-[0.2em] text-[14px] md:text-[12px]">{member.role}</p>
             </div>
           </div>
           

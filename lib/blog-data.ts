@@ -4,7 +4,7 @@ export const blogPosts = [
     title: "The Ultimate Guide to Mainland Company Formation in Dubai",
     excerpt: "Discover the step-by-step process of setting up a mainland company in Dubai. Learn about the benefits, requirements, and how to navigate the legal landscape for a successful business launch.",
     date: "February 10, 2026",
-    author: "Golden Fortune Team",
+    author: "GOLDEN LEGACY Team",
     image: "/blog/mainland-setup.png",
     category: "Business Setup",
     content: `

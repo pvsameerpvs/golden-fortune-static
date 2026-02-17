@@ -26,7 +26,7 @@ const TeamMemberClient = ({ member }: { member: TeamMember }) => {
       <div className="absolute top-1/2 left-0 w-96 h-96 bg-gold/5 blur-[120px] rounded-full -ml-48 pointer-events-none"></div>
       
       {/* Navigation */}
-      <nav className="absolute top-10 left-10 z-20">
+      <nav className="absolute top-32 left-10 z-20">
         <Link 
           href="/about-us#team" 
           className="flex items-center gap-2 text-white/60 hover:text-white transition-colors group"
@@ -43,7 +43,7 @@ const TeamMemberClient = ({ member }: { member: TeamMember }) => {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="space-y-12"
+            className="space-y-12 order-2 lg:order-1"
           >
             <div className="space-y-4">
               <span className="text-gold text-xs font-black tracking-[0.3em] uppercase block">
@@ -52,12 +52,7 @@ const TeamMemberClient = ({ member }: { member: TeamMember }) => {
               <div className="w-20 h-[1px] bg-white/20"></div>
             </div>
 
-            <div className="relative">
-              <Quote className="text-gold/20 w-16 h-16 absolute -top-8 -left-8 -z-10" />
-              <p className="text-2xl md:text-3xl lg:text-4xl font-light leading-snug text-white/90 italic">
-                "{member.message}"
-              </p>
-            </div>
+
 
             <div className="space-y-4">
               <div className="w-12 h-[3px] bg-red-600"></div>
@@ -103,14 +98,14 @@ const TeamMemberClient = ({ member }: { member: TeamMember }) => {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="relative h-[600px] lg:h-[800px] w-full"
+            className="relative h-[300px] lg:h-[500px] w-full order-1 lg:order-2"
           >
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-10"></div>
             <Image 
               src={member.image}
               alt={member.name}
               fill
-              className="object-cover object-top hover:scale-105 transition-all duration-1000"
+              className="object-cover object-center hover:scale-105 transition-all duration-1000"
               priority
             />
           </motion.div>
