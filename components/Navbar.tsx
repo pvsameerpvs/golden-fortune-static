@@ -140,9 +140,9 @@ const Navbar = () => {
                       transition={{ duration: 0.2, ease: "easeOut" }}
                       className="absolute left-0 mt-2 w-72 bg-[#0a0a0ae6] backdrop-blur-3xl border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-2xl overflow-hidden py-3"
                     >
-                      <div className="px-4 py-2 border-b border-white/5 mb-2">
+                      {/* <div className="px-4 py-2 border-b border-white/5 mb-2">
                          <span className="text-[10px] uppercase tracking-widest text-gold font-bold">Solutions for {item.title}</span>
-                      </div>
+                      </div> */}
                       <div className="grid grid-cols-1 gap-1 px-2">
                         {item.links.map((link) => (
                           <Link
