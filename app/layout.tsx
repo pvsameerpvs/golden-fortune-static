@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import SocialSidebar from "@/components/SocialSidebar";
 import MobileBottomNav from "@/components/MobileBottomNav";
 import LeadModal from "@/components/LeadModal";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 import { Inter, Roboto_Slab, Roboto_Condensed } from "next/font/google";
 
 const inter = Inter({ 
@@ -46,6 +47,7 @@ export default function RootLayout({
         <Navbar />
         <SocialSidebar />
         <MobileBottomNav />
+        <WhatsAppFloat />
         <LeadModal />
         <main className="min-h-screen">
           {children}

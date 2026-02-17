@@ -76,7 +76,7 @@ const SocialSidebar = () => {
             rel="noopener noreferrer" 
             className="w-10 h-10 flex items-center justify-center bg-gold text-black hover:bg-white transition-all duration-300 relative group first:rounded-tl-xl last:rounded-bl-xl border-b border-black/5 last:border-0"
           >
-            <div className="scale-90 group-hover:scale-110 transition-transform">
+            <div className="scale-90 group-hover:scale-110 transition-transform" style={{ color: item.color }}>
               {item.icon}
             </div>
             

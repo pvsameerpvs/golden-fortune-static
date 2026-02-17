@@ -19,8 +19,8 @@ const Hero = () => {
         >
           <source src="/hero-vid.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-gradient-to-tr from-black/95 via-black/40 to-transparent"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-[#030303]"></div>
+        {/* <div className="absolute inset-0 bg-gradient-to-tr from-black/95 via-black/40 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-[#030303]"></div> */}
         
         {/* Subtle Decorative Lights */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gold/10 blur-[130px] rounded-full opacity-30 -mr-48 -mt-48"></div>
