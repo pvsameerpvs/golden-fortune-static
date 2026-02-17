@@ -12,7 +12,7 @@ const Stats = () => {
   ];
 
   return (
-    <section className="section-padding bg-gold relative overflow-hidden">
+    <section className="py-12 md:py-20 bg-gold relative overflow-hidden">
       {/* Decorative Shine Effect */}
       <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full animate-[shimmer_5s_infinite] skew-x-12"></div>
       
@@ -26,7 +26,7 @@ const Stats = () => {
                 <div className="text-3xl md:text-5xl font-black text-black tracking-tighter">
                   {stat.val}
                 </div>
-                <div className="text-black/60 font-black tracking-[0.2em] uppercase text-[8px] md:text-[10px]">
+                <div className="text-black/60 font-black tracking-[0.2em] uppercase text-[10px] md:text-[12px]">
                   {stat.label}
                 </div>
                 <div className="w-12 h-1 bg-black/10 mx-auto rounded-full group-hover:w-24 group-hover:bg-black transition-all duration-500"></div>
