@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { Landmark, Building2, PlusCircle, ArrowRight, ShieldCheck, Globe2, Briefcase } from 'lucide-react';
+import { Landmark, Building2, PlusCircle, ArrowRight, ShieldCheck, Globe2, Briefcase, CreditCard } from 'lucide-react';
 
 const services = [
   {
@@ -53,6 +53,17 @@ const services = [
       { name: 'Golden Visa', href: '/golden-visa-uae' },
       { name: 'UAE Wills', href: '/uae-wills-service' },
       { name: 'Document Attestation', href: '/document-attestation-services' },
+    ]
+  },
+  {
+    title: 'Banking Solutions',
+    icon: CreditCard,
+    description: "Strategic partnerships with leading UAE banks to facilitate seamless account opening and financial operations.",
+    links: [
+      { name: 'Corporate Banking', href: '/bank-account-opening-dubai' },
+      { name: 'Personal Banking', href: '/personal-bank-account-services' },
+      { name: 'Offshore Accounts', href: '/offshore-banking-services' },
+      { name: 'Trade Finance', href: '/trade-finance-services' },
     ]
   }
 ];

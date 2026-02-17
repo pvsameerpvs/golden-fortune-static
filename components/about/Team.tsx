@@ -80,14 +80,14 @@ const TeamMemberCard = ({ member }: { member: any }) => (
         target="_blank"
         rel="noopener noreferrer"
         onClick={(e) => e.stopPropagation()}
-        className="absolute top-6 right-6 z-50 w-10 h-10 bg-black/40 backdrop-blur-md border border-white/10 rounded-full flex items-center justify-center text-white/50 hover:text-gold hover:border-gold/50 transition-all duration-500 hover:scale-110 active:scale-95"
+        className="absolute top-6 right-6 z-50 w-10 h-10 bg-[#0077b5]/80 backdrop-blur-md border border-[#0077b5]/30 rounded-full flex items-center justify-center text-white hover:bg-[#0077b5] hover:border-white/50 transition-all duration-500 hover:scale-110 active:scale-95 shadow-[0_4px_20px_rgba(0,119,181,0.3)]"
         title="View LinkedIn Profile"
       >
-        <Linkedin size={18} />
+        <Linkedin size={18} fill="currentColor" strokeWidth={0} />
       </a>
     )}
 
-    <Link href={`/team/${member.slug}`} className="block relative h-[500px] md:h-[580px]">
+    <Link href={`/team/${member.slug}`} className="block relative h-[350px] md:h-[420px]">
       <Image
         src={member.image}
         alt={member.name}
@@ -104,7 +104,7 @@ const TeamMemberCard = ({ member }: { member: any }) => (
             <h4 className="text-2xl md:text-xl font-bold text-white mb-1 leading-tight">{member.name}</h4>
             <div className="flex items-center gap-2">
               <div className="w-6 h-[1px] bg-gold"></div>
-              <p className="text-gold font-black uppercase tracking-[0.2em] text-[10px] md:text-[8px]">{member.role}</p>
+              <p className="text-gold font-black uppercase tracking-[0.2em] text-[12px] md:text-[10px]">{member.role}</p>
             </div>
           </div>
           
