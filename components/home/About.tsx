@@ -87,7 +87,7 @@ const About = () => {
               <div className="w-20 h-1.5 bg-gold rounded-full"></div>
             </div>
             
-            <div className="space-y-6 text-gray-400 text-base sm:text-lg leading-relaxed font-light">
+            <div className="space-y-6 text-gray-400 text-base sm:text-lg leading-relaxed font-light text-justify">
               <p>
                 Golden Legacy Corporate Services, strategically located at the heart of Dubai - Sheikh Zayed Road, is more than just a consultancy. We are your dedicated growth partners in the UAE.
               </p>

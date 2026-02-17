@@ -103,7 +103,7 @@ const CoreServices = () => {
                 </div>
               </div>
               <div className="p-10 space-y-8">
-                <p className="text-gray-500 font-medium leading-relaxed">
+                <p className="text-gray-500 font-medium leading-relaxed text-justify">
                   {service.desc}
                 </p>
                 <Link href={service.link} className="inline-flex items-center gap-3 text-gold font-black hover:gap-6 transition-all uppercase tracking-widest text-xs">
