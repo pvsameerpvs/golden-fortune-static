@@ -48,7 +48,7 @@ const ContactPage = () => {
                   </div>
                   <div className="space-y-1">
                     <p className="text-white font-black uppercase text-xs tracking-widest opacity-50">Headquarters</p>
-                    <p className="text-white text-lg font-medium">located at the heart of Dubai - Sheikh Zayed Road</p>
+                    <p className="text-white text-lg font-medium">Located At The Heart Of Dubai - Sheikh Zayed Road</p>
                   </div>
                 </div>
 
@@ -60,7 +60,6 @@ const ContactPage = () => {
                     <p className="text-white font-black uppercase text-xs tracking-widest opacity-50">Call Us</p>
                     <a href="tel:+971526065777" className="text-white text-lg font-medium hover:text-gold transition-colors">+971 52 606 5777</a>
                     <br />
-                    <a href="tel:+97144569557" className="text-white text-lg font-medium hover:text-gold transition-colors">+971 44569557</a>
                   </div>
                 </div>
 
@@ -80,7 +79,10 @@ const ContactPage = () => {
                   </div>
                   <div className="space-y-1">
                     <p className="text-white font-black uppercase text-xs tracking-widest opacity-50">Office Hours</p>
-                    <p className="text-white text-lg font-medium">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                    <div className="flex flex-col">
+                      <p className="text-white text-lg font-medium">Monday to Saturday | 9:30 AM – 6:30 PM</p>
+                      <p className="text-white/50 text-sm font-medium">Closed on 1st and 2nd Saturdays</p>
+                    </div>
                   </div>
                 </div>
               </div>

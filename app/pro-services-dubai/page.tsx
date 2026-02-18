@@ -32,7 +32,8 @@ export default function PROServices() {
             "Visa Services: Entry permits, residency stamping, and cancellations.",
             "Labor Department Services: Work permits, mission visas, and labor files.",
             "Legal Drafting: MOA amendments and Board Resolutions.",
-             "Miscellaneous Services: Tenancy (Ejari) support and Civil Defense approvals."
+             "RERA Certificate",
+               "Miscellaneous Services: Tenancy (Ejari) support and Civil Defense approvals.",
           ]
         },
         {

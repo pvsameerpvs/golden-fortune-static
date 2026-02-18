@@ -6,12 +6,12 @@ import { ArrowRight, Shield, BarChart3, Target, Zap, Landmark } from 'lucide-rea
 
 const WhyChooseUs = () => {
   const points = [
+    { title: "Banking Support", desc: "Superior assistance in navigating multi-currency corporate account setups.", icon: <Landmark size={48} /> },
+    { title: "Govt Networking", desc: "Direct connections and optimized procedures with local authorities.", icon: <Target size={48} /> },
+    { title: "Fast Tracking", desc: "Efficient procedures that reduce your time-to-market significantly.", icon: <Zap size={48} /> },
     { title: "Ethical Integrity", desc: "No hidden fees. Full transparency in every document and government fee.", icon: <Shield size={48} /> },
     { title: "Market Insights", desc: "Access twenty years of data and trends in the UAE business landscape.", icon: <BarChart3 size={48} /> },
-    { title: "Govt Networking", desc: "Direct connections and optimized procedures with local authorities.", icon: <Target size={48} /> },
     { title: "Custom Solutions", desc: "Bespoke setup packages tailored to your specific industry needs.", icon: <Zap size={48} /> },
-    { title: "Banking Support", desc: "Superior assistance in navigating multi-currency corporate account setups.", icon: <Landmark size={48} /> },
-    { title: "Fast Tracking", desc: "Efficient procedures that reduce your time-to-market significantly.", icon: <Zap size={48} /> },
   ];
 
   return (
