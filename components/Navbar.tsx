@@ -61,7 +61,7 @@ const Navbar = () => {
       title: 'Value Added',
       icon: <PlusCircle className="w-4 h-4" />,
       links: [
-        { name: 'UAE Wills', href: '/uae-wills-service' },
+        { name: 'UAE Will', href: '/uae-wills-service' },
         { name: 'Golden Visas', href: '/golden-visa-uae' },
         { name: 'PRO Services', href: '/pro-services-dubai' },
         { name: 'VAT Consultancy', href: '/vat-consultancy-uae' },

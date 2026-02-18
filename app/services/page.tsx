@@ -51,7 +51,7 @@ const services = [
     description: "Expert assistance with Golden Visas and residency permits for you and your employees.",
     links: [
       { name: 'Golden Visa', href: '/golden-visa-uae' },
-      { name: 'UAE Wills', href: '/uae-wills-service' },
+      { name: 'UAE Will', href: '/uae-wills-service' },
       { name: 'Document Attestation', href: '/document-attestation-services' },
     ]
   },

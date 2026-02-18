@@ -3,7 +3,7 @@ import ServicePage from '@/components/ServicePage';
 export default function UAEWills() {
   return (
     <ServicePage
-      title="UAE Wills Service"
+      title="UAE Will Service"
       subtitle="Legacy Protection & Asset Distribution"
       heroImage="/images/mainland.png"
       description={[
@@ -25,10 +25,10 @@ export default function UAEWills() {
       ]}
       sections={[
         {
-          title: "Why Choose Our Wills Service?",
+          title: "Why a Will is Essential",
           content: [
-            "Setting up a Will in a foreign jurisdiction requires precision. We provide a bridge between local regulations and international expectations, ensuring your documents are robust and enforceable.",
-            "Choosing Golden Legacy means your family's future is handled with the highest level of confidentiality, legal expertise, and cultural sensitivity."
+            "A registered Will is the only legal instrument that guarantees your Dubai assets are distributed according to your wishes, not local Sharia Law defaults.",
+            "Without a Will, bank accounts are often frozen immediately, and guardianship of minors can become a legal uncertainty. A Will provides the ultimate 'peace of mind' and financial security for your family."
           ]
         },
         {

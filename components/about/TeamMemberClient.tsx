@@ -45,12 +45,12 @@ const TeamMemberClient = ({ member }: { member: TeamMember }) => {
             transition={{ duration: 0.8 }}
             className="space-y-12 order-2 lg:order-1"
           >
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               <span className="text-gold text-xs font-black tracking-[0.3em] uppercase block">
                 {member.role === 'CEO' ? "CEO'S MESSAGE" : "TEAM PROFILE"}
               </span>
               <div className="w-20 h-[1px] bg-white/20"></div>
-            </div>
+            </div> */}
 
 
 

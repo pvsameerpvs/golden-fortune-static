@@ -60,7 +60,7 @@ const CoreServices = () => {
       icon: <PlusCircle className="text-gold mb-4" />
     },
     {
-      title: "UAE Wills Service",
+      title: "UAE Will Service",
       desc: "Secure your legacy and protect your assets with legally compliant Will drafting and registration.",
       img: "/images/wills-service.png",
       link: "/uae-wills-service",
