@@ -12,7 +12,7 @@ const WhatsAppFloat = () => {
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ delay: 1, duration: 0.5, type: 'spring' }}
-      className="fixed bottom-28 left-6 md:bottom-10 md:left-10 z-[200] flex items-center justify-center w-14 h-14 md:w-16 md:h-16 bg-[#25D366] rounded-full shadow-[0_0_30px_rgba(37,211,102,0.4)] hover:scale-110 hover:shadow-[0_0_50px_rgba(37,211,102,0.6)] transition-all duration-300 group"
+      className="hidden md:flex fixed bottom-28 left-6 md:bottom-10 md:left-10 z-[200] items-center justify-center w-14 h-14 md:w-16 md:h-16 bg-[#25D366] rounded-full shadow-[0_0_30px_rgba(37,211,102,0.4)] hover:scale-110 hover:shadow-[0_0_50px_rgba(37,211,102,0.6)] transition-all duration-300 group"
       aria-label="Chat on WhatsApp"
     >
       <svg 
