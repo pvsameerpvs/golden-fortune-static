@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { Landmark, Building2, Globe2, BadgeCheck } from 'lucide-react';
+import { Landmark, Building2, Globe2, BadgeCheck, Home } from 'lucide-react';
 
 const TrustBadges = () => {
   return (
@@ -15,12 +15,13 @@ const TrustBadges = () => {
           <h2 className="text-3xl md:text-5xl font-black text-black tracking-tighter uppercase">Authorized & <span className="text-gold">Accredited</span></h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-12">
           {[
             { icon: <Landmark size={32} />, title: "DED Licensed", desc: "Registered Department of Economic Development" },
             { icon: <Building2 size={32} />, title: "Freezone Partner", desc: "Official formation partner across UAE zones" },
             { icon: <Globe2 size={32} />, title: "Global Network", desc: "Extensive corporate banking & legal reach" },
-            { icon: <BadgeCheck size={32} />, title: "ISO Certified", desc: "International Quality Management Standard" }
+            { icon: <BadgeCheck size={32} />, title: "ISO Certified", desc: "International Quality Management Standard" },
+            { icon: <Home size={32} />, title: "RERA Certified", desc: "Real Estate Regulatory Agency Approved" }
           ].map((badge, idx) => (
             <div key={idx} className="group flex flex-col items-center text-center space-y-4 p-8 rounded-3xl transition-all duration-500 hover:bg-gray-50">
               <div className="w-16 h-16 bg-gray-50 rounded-2xl flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-black transition-all duration-500 shadow-sm group-hover:shadow-xl group-hover:-translate-y-2">
